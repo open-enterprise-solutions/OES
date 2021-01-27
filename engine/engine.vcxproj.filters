@@ -1,0 +1,3268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="metadata\metadata.cpp">
+      <Filter>metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\spell.cpp">
+      <Filter>compiler\value\spell</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\value.cpp">
+      <Filter>compiler\value</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\valuearray.cpp">
+      <Filter>compiler\value</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\procunit.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\valueFileSystem.cpp">
+      <Filter>compiler\value</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\functions.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\methods.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\compiler.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\valueOLE.cpp">
+      <Filter>compiler\value</Filter>
+    </ClCompile>
+    <ClCompile Include="window\theme\luna_dockart.cpp">
+      <Filter>window\theme</Filter>
+    </ClCompile>
+    <ClCompile Include="window\theme\luna_auitabart.cpp">
+      <Filter>window\theme</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\stringutils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\typeconv.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\bitmaps.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="window\settings\keybinderdialog.cpp">
+      <Filter>window\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="window\settings\settingsdialog.cpp">
+      <Filter>window\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="window\settings\fontcolorsettings.cpp">
+      <Filter>window\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="window\settings\fontcolorsettingspanel.cpp">
+      <Filter>window\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="window\settings\editorsettingspanel.cpp">
+      <Filter>window\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="window\settings\editorsettings.cpp">
+      <Filter>window\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="window\settings\showhelpevent.cpp">
+      <Filter>window\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="window\settings\keybinder.cpp">
+      <Filter>window\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="window\settings\xmlutility.cpp">
+      <Filter>window\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="window\settings\stlutility.cpp">
+      <Filter>window\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="window\settings\keymonitortextctrl.cpp">
+      <Filter>window\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="window\settings\statictextex.cpp">
+      <Filter>window\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\valueMap.cpp">
+      <Filter>compiler\value</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\valueQuery.cpp">
+      <Filter>compiler\value\sql</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\valuetable.cpp">
+      <Filter>compiler\value</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\fs\fs.cpp">
+      <Filter>utils\fs</Filter>
+    </ClCompile>
+    <ClCompile Include="window\functionlist\functionlist.cpp">
+      <Filter>window\functionlist</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\button.cpp">
+      <Filter>forms\elements\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\choice.cpp">
+      <Filter>forms\elements\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\checkbox.cpp">
+      <Filter>forms\elements\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\combobox.cpp">
+      <Filter>forms\elements\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\listbox.cpp">
+      <Filter>forms\elements\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\gauge.cpp">
+      <Filter>forms\elements\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\radiobutton.cpp">
+      <Filter>forms\elements\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\slider.cpp">
+      <Filter>forms\elements\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\staticline.cpp">
+      <Filter>forms\elements\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\statictext.cpp">
+      <Filter>forms\elements\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\boxsizer.cpp">
+      <Filter>forms\elements\sizers</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\gridsizer.cpp">
+      <Filter>forms\elements\sizers</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\wrapsizer.cpp">
+      <Filter>forms\elements\sizers</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\staticboxsizer.cpp">
+      <Filter>forms\elements\sizers</Filter>
+    </ClCompile>
+    <ClCompile Include="window\title.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\itemsizer.cpp">
+      <Filter>forms\elements\sizers</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\window.cpp">
+      <Filter>forms\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\sizers.cpp">
+      <Filter>forms\elements\sizers</Filter>
+    </ClCompile>
+    <ClCompile Include="window\watch\watchdroptarget.cpp">
+      <Filter>window\bottom\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="window\watch\watchwindow.cpp">
+      <Filter>window\bottom\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\notebook.cpp">
+      <Filter>forms\elements\notebook</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\textctrl.cpp">
+      <Filter>forms\elements\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\button_events.cpp">
+      <Filter>forms\elements\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\checkbox_events.cpp">
+      <Filter>forms\elements\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="window\watch\watchwindow_init.cpp">
+      <Filter>window\bottom\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\valueText.cpp">
+      <Filter>compiler\value</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\guid.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\valueGrid.cpp">
+      <Filter>compiler\value</Filter>
+    </ClCompile>
+    <ClCompile Include="common\moduleInfo.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\codec\rfc2047.cpp">
+      <Filter>components\email\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\codec\rfc2231.cpp">
+      <Filter>components\email\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\codec\charsetconv.cpp">
+      <Filter>components\email\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\wxemail.cpp">
+      <Filter>components\email</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\contentdisposition.cxx">
+      <Filter>components\email\mimetic</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\contentid.cxx">
+      <Filter>components\email\mimetic</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\contenttransferencoding.cxx">
+      <Filter>components\email\mimetic</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\contenttype.cxx">
+      <Filter>components\email\mimetic</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\fieldparam.cxx">
+      <Filter>components\email\mimetic</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\header.cxx">
+      <Filter>components\email\mimetic</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\message.cxx">
+      <Filter>components\email\mimetic</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\mimeentity.cxx">
+      <Filter>components\email\mimetic</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\mimeversion.cxx">
+      <Filter>components\email\mimetic</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\strutils.cxx">
+      <Filter>components\email\mimetic</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\utils.cxx">
+      <Filter>components\email\mimetic</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\version.cxx">
+      <Filter>components\email\mimetic</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\body.cxx">
+      <Filter>components\email\mimetic</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\contentdescription.cxx">
+      <Filter>components\email\mimetic</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\utils\wxmd5.cpp">
+      <Filter>components\email\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\utils\wxcmdprot.cpp">
+      <Filter>components\email\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\ssl\wxSSLSocketClient.cpp">
+      <Filter>components\email\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\smtp\wxsmtpemail.cpp">
+      <Filter>components\email\smtp</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\smtp\wxsmtpstates.cpp">
+      <Filter>components\email\smtp</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\smtp\wxsmtp.cpp">
+      <Filter>components\email\smtp</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\pop3\wxpop3states.cpp">
+      <Filter>components\email\pop3</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\pop3\wxpop3.cpp">
+      <Filter>components\email\pop3</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\codec\qp.cxx">
+      <Filter>components\email\mimetic\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\codec\base64.cxx">
+      <Filter>components\email\mimetic\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\rfc822\field.cxx">
+      <Filter>components\email\mimetic\rfc822</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\rfc822\fieldvalue.cxx">
+      <Filter>components\email\mimetic\rfc822</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\rfc822\group.cxx">
+      <Filter>components\email\mimetic\rfc822</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\rfc822\mailbox.cxx">
+      <Filter>components\email\mimetic\rfc822</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\rfc822\mailboxlist.cxx">
+      <Filter>components\email\mimetic\rfc822</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\rfc822\messageid.cxx">
+      <Filter>components\email\mimetic\rfc822</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\rfc822\rheader.cxx">
+      <Filter>components\email\mimetic\rfc822</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\rfc822\rmessage.cxx">
+      <Filter>components\email\mimetic\rfc822</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\rfc822\address.cxx">
+      <Filter>components\email\mimetic\rfc822</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\rfc822\addresslist.cxx">
+      <Filter>components\email\mimetic\rfc822</Filter>
+    </ClCompile>
+    <ClCompile Include="components\email\mimetic\rfc822\datetime.cxx">
+      <Filter>components\email\mimetic\rfc822</Filter>
+    </ClCompile>
+    <ClCompile Include="components\json\jsonval.cpp">
+      <Filter>components\json</Filter>
+    </ClCompile>
+    <ClCompile Include="components\json\jsonwriter.cpp">
+      <Filter>components\json</Filter>
+    </ClCompile>
+    <ClCompile Include="components\json\jsonreader.cpp">
+      <Filter>components\json</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxbarchart.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxbarchartctrl.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxbarchartdatasetoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxbarchartoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxboxplot.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxboxplotctrl.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxboxplotdatasetoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxboxplotoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxbubblechart.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxbubblechartctrl.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxbubblechartoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxcandlestickchart.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxcandlestickchartctrl.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxcandlestickchartoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchart.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartbackground.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartbackgroundoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartcommonoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartctrl.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartfontoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartmultitooltip.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartmultitooltipoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartpadding.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartsarc.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartsarcoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartsaxis.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartsaxisoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartsbrushoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartscategoricalaxis.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartscategoricaldata.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartscategoricaldataobserver.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartscircle.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartscircleoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartsdataset.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartsdatasetid.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartsdatasettheme.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartsdoubledataset.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartselement.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartsgrid.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartsgridmapping.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartsgridoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartslabel.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartslabelgroup.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartslabeloptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartslegendctrl.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartslegenditem.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartslegendline.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartslegendlineoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartslegendoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartslicedata.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartsnumericalaxis.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartsohlcdata.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartspenoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartspoint.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartspointoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartsprecisiontheme.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartspresentationtheme.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartsradialgrid.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartsradialgridoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartsrectangle.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartsrectangleoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartstheme.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartsthemefactory.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartsthemeid.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartstimeaxis.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxchartsutilities.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxcharttooltip.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxcharttooltipoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxcharttooltipprovider.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxcolumnchart.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxcolumnchartctrl.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxcolumnchartdatasetoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxcolumnchartoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxcombinationchart.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxcombinationchartctrl.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxcombinationchartoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxdoughnutandpiechartbase.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxdoughnutandpiechartoptionsbase.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxdoughnutchart.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxdoughnutchartctrl.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxdoughnutchartoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxhistogram.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxhistogramctrl.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxhistogramoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxlinechart.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxlinechartctrl.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxlinechartdatasetoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxlinechartoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxmath2dplot.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxmath2dplotctrl.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxmath2dplotoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxohlcchart.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxohlcchartctrl.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxohlcchartoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxpiechart.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxpiechartctrl.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxpiechartoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxpolarareachart.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxpolarareachartctrl.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxpolarareachartoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxradarchart.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxradarchartctrl.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxradarchartoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxscatterplot.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxscatterplotctrl.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxscatterplotoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxstackedbarchart.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxstackedbarchartctrl.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxstackedbarchartdatasetoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxstackedbarchartoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxstackedcolumnchart.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxstackedcolumnchartctrl.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxstackedcolumnchartdatasetoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxstackedcolumnchartoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxtimeserieschart.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxtimeserieschartctrl.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxtimeserieschartoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxareachart.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxareachartctrl.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxareachartdatasetoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="window\charts\wxareachartoptions.cpp">
+      <Filter>window\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\events.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="database\databaseErrorReporter.cpp">
+      <Filter>database</Filter>
+    </ClCompile>
+    <ClCompile Include="database\databaseLayer.cpp">
+      <Filter>database</Filter>
+    </ClCompile>
+    <ClCompile Include="database\databaseQueryParser.cpp">
+      <Filter>database</Filter>
+    </ClCompile>
+    <ClCompile Include="database\databaseResultSet.cpp">
+      <Filter>database</Filter>
+    </ClCompile>
+    <ClCompile Include="database\databaseStringConverter.cpp">
+      <Filter>database</Filter>
+    </ClCompile>
+    <ClCompile Include="database\postgres\postgresInterface.cpp">
+      <Filter>database\postgres</Filter>
+    </ClCompile>
+    <ClCompile Include="database\postgres\postgresParameter.cpp">
+      <Filter>database\postgres</Filter>
+    </ClCompile>
+    <ClCompile Include="database\postgres\postgresPreparedStatement.cpp">
+      <Filter>database\postgres</Filter>
+    </ClCompile>
+    <ClCompile Include="database\postgres\postgresPreparedStatementParameterCollection.cpp">
+      <Filter>database\postgres</Filter>
+    </ClCompile>
+    <ClCompile Include="database\postgres\postgresPreparedStatementWrapper.cpp">
+      <Filter>database\postgres</Filter>
+    </ClCompile>
+    <ClCompile Include="database\postgres\postgresResultSet.cpp">
+      <Filter>database\postgres</Filter>
+    </ClCompile>
+    <ClCompile Include="database\postgres\postgresResultSetMetaData.cpp">
+      <Filter>database\postgres</Filter>
+    </ClCompile>
+    <ClCompile Include="database\postgres\postgresDatabaseLayer.cpp">
+      <Filter>database\postgres</Filter>
+    </ClCompile>
+    <ClCompile Include="database\odbc\odbcDatabaseLayer.cpp">
+      <Filter>database\odbc</Filter>
+    </ClCompile>
+    <ClCompile Include="database\odbc\odbcInterface.cpp">
+      <Filter>database\odbc</Filter>
+    </ClCompile>
+    <ClCompile Include="database\odbc\odbcParameter.cpp">
+      <Filter>database\odbc</Filter>
+    </ClCompile>
+    <ClCompile Include="database\odbc\odbcPreparedStatement.cpp">
+      <Filter>database\odbc</Filter>
+    </ClCompile>
+    <ClCompile Include="database\odbc\odbcResultSet.cpp">
+      <Filter>database\odbc</Filter>
+    </ClCompile>
+    <ClCompile Include="database\odbc\odbcResultSetMetaData.cpp">
+      <Filter>database\odbc</Filter>
+    </ClCompile>
+    <ClCompile Include="database\firebird\firebirdParameterCollection.cpp">
+      <Filter>database\firebird</Filter>
+    </ClCompile>
+    <ClCompile Include="database\firebird\firebirdPreparedStatement.cpp">
+      <Filter>database\firebird</Filter>
+    </ClCompile>
+    <ClCompile Include="database\firebird\firebirdPreparedStatementWrapper.cpp">
+      <Filter>database\firebird</Filter>
+    </ClCompile>
+    <ClCompile Include="database\firebird\firebirdResultSet.cpp">
+      <Filter>database\firebird</Filter>
+    </ClCompile>
+    <ClCompile Include="database\firebird\firebirdResultSetMetaData.cpp">
+      <Filter>database\firebird</Filter>
+    </ClCompile>
+    <ClCompile Include="database\firebird\firebirdDatabaseLayer.cpp">
+      <Filter>database\firebird</Filter>
+    </ClCompile>
+    <ClCompile Include="database\firebird\firebirdInterface.cpp">
+      <Filter>database\firebird</Filter>
+    </ClCompile>
+    <ClCompile Include="database\firebird\firebirdParameter.cpp">
+      <Filter>database\firebird</Filter>
+    </ClCompile>
+    <ClCompile Include="window\watch\watchctrl.cpp">
+      <Filter>window\bottom\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="window\controls\treelistctrl.cpp">
+      <Filter>window\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\systemObjects.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\queryUnit.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\debugger\debugEvent.cpp">
+      <Filter>compiler\debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\debugger\debugServer.cpp">
+      <Filter>compiler\debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\debugger\debugServerDB.cpp">
+      <Filter>compiler\debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\debugger\debugClient.cpp">
+      <Filter>compiler\debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="database\sqllite\engine\sqlite3.c">
+      <Filter>database\sqllite\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="database\sqllite\sqlitePreparedStatement.cpp">
+      <Filter>database\sqllite</Filter>
+    </ClCompile>
+    <ClCompile Include="database\sqllite\sqliteResultSet.cpp">
+      <Filter>database\sqllite</Filter>
+    </ClCompile>
+    <ClCompile Include="database\sqllite\sqliteResultSetMetaData.cpp">
+      <Filter>database\sqllite</Filter>
+    </ClCompile>
+    <ClCompile Include="database\sqllite\sqliteDatabaseLayer.cpp">
+      <Filter>database\sqllite</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\frame.cpp">
+      <Filter>forms\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="window\autocomplete\autoComplectionCompile.cpp">
+      <Filter>window\autocomplete\precompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="window\autocomplete\autoComplectionCompileContext.cpp">
+      <Filter>window\autocomplete\precompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="window\autocomplete\components\callTip.cpp">
+      <Filter>window\autocomplete\components</Filter>
+    </ClCompile>
+    <ClCompile Include="window\autocomplete\components\autoComplete.cpp">
+      <Filter>window\autocomplete\components</Filter>
+    </ClCompile>
+    <ClCompile Include="window\autocomplete\components\helpers\listBoxWnd.cpp">
+      <Filter>window\autocomplete\components\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="window\autocomplete\components\helpers\popupWnd.cpp">
+      <Filter>window\autocomplete\components\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="window\autocomplete\components\helpers\listBoxVisualData.cpp">
+      <Filter>window\autocomplete\components\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="window\autocomplete\autoComplectionParser.cpp">
+      <Filter>window\autocomplete\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="window\autocomplete\autoComplectionCtrlLoader.cpp">
+      <Filter>window\autocomplete</Filter>
+    </ClCompile>
+    <ClCompile Include="window\lineInput.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="window\errorDialog.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\valueExtended.cpp">
+      <Filter>compiler\value</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\compileModule.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\translateModule.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="window\watch\watchWindowEvents.cpp">
+      <Filter>window\bottom\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="window\authorization.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="window\userListWnd.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="window\userWnd.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\metaObjects\attributes\attributes.cpp">
+      <Filter>metadata\metaObjects\attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\metaObjects\tables\tables.cpp">
+      <Filter>metadata\metaObjects\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\reference\reference.cpp">
+      <Filter>metadata\objects\reference</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\metaObjects\enumeration\enumeration.cpp">
+      <Filter>metadata\metaObjects\enumeration</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\tablePart\tablePart.cpp">
+      <Filter>metadata\objects\tablePart</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\tablePart\tablePartAttribute.cpp">
+      <Filter>metadata\objects\tablePart</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\tablePart\tablePartMethods.cpp">
+      <Filter>metadata\objects\tablePart</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\tinyxml\tinystr.cpp">
+      <Filter>utils\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\tinyxml\tinyxml.cpp">
+      <Filter>utils\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\tinyxml\tinyxmlerror.cpp">
+      <Filter>utils\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\tinyxml\tinyxmlparser.cpp">
+      <Filter>utils\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\tinyxml\ticpp.cpp">
+      <Filter>utils\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="mainAppEvents.cpp" />
+    <ClCompile Include="appData.cpp" />
+    <ClCompile Include="metadata\objects\reference\referenceMethods.cpp">
+      <Filter>metadata\objects\reference</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\reference\referenceAttributes.cpp">
+      <Filter>metadata\objects\reference</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\enumerationManagerAttributes.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\enumerationManagerMethods.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\enumerationMetadata.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\enumerationMetadataDB.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\baseManager.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\baseObject.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\baseObjectDB.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\catalogAction.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\catalogManager.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\catalogManager_impl.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\catalogManagerMethods.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\catalogMetadata.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\catalogMetadataDB.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\catalogObject.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\constants.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\constantsDB.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\constantsManager.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\constantsManagerMethods.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\documentAction.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\documentManager.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\documentManager_impl.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\documentManagerMethods.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\documentMetadata.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\documentMetadataDB.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\documentObject.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\enumerationManager.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\list\objectListAction.cpp">
+      <Filter>metadata\objects\list</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\list\objectListAttributes.cpp">
+      <Filter>metadata\objects\list</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\list\objectListDB.cpp">
+      <Filter>metadata\objects\list</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\list\objectListMethods.cpp">
+      <Filter>metadata\objects\list</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\list\objectListModel.cpp">
+      <Filter>metadata\objects\list</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\list\objectList.cpp">
+      <Filter>metadata\objects\list</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\visualEditorBase.cpp">
+      <Filter>forms</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\visualEditorContext.cpp">
+      <Filter>forms</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\visualEditorDatabase.cpp">
+      <Filter>forms</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\visualEditorEvents.cpp">
+      <Filter>forms</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\visualEditorObjects.cpp">
+      <Filter>forms</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\visualEditor.cpp">
+      <Filter>forms</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\pageWindow.cpp">
+      <Filter>forms\window</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\innerFrame.cpp">
+      <Filter>forms\window</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\visualEditorView.cpp">
+      <Filter>forms</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\metaObjects\attributes\attributesEvents.cpp">
+      <Filter>metadata\metaObjects\attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\metaObjects\metaObjectAttributes.cpp">
+      <Filter>metadata\metaObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\metaObjects\metaObject.cpp">
+      <Filter>metadata\metaObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\metaObjects\metaModuleObject.cpp">
+      <Filter>metadata\metaObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\metaObjects\metaGridObject.cpp">
+      <Filter>metadata\metaObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\metaObjects\metaFormObject.cpp">
+      <Filter>metadata\metaObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\metaObjects\metaObjectMethods.cpp">
+      <Filter>metadata\metaObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\metaObjects\metaObjectMetadata.cpp">
+      <Filter>metadata\metaObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="window\mainFrameCommands.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="window\mainFrameDesigner.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="window\mainFrameDesignerCommands.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="window\mainFrameDesignerEvents.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="window\mainFrameDesignerMenu.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="window\mainFrameEnterprise.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="window\mainFrameEnterpriseCommands.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="window\mainFrameEnterpriseEvents.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="window\mainFrameEnterpriseMenu.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="window\mainFrameEvents.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="window\mainFrameInit.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="window\mainFrameChild.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="window\mainFrame.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\chartBox.cpp">
+      <Filter>forms\elements\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\visualEditorView_impl.cpp">
+      <Filter>forms</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\systemObjectsMethods.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\systemObjectsFunctions.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\valueTableMethods.cpp">
+      <Filter>compiler\value</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\valueGuid.cpp">
+      <Filter>compiler\value</Filter>
+    </ClCompile>
+    <ClCompile Include="common\docInfoCommands.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\docInfo.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cmdProc.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\reportManager.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\frameMethods.cpp">
+      <Filter>forms\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\frameObject.cpp">
+      <Filter>forms\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\frameAction.cpp">
+      <Filter>forms\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\frameAttributes.cpp">
+      <Filter>forms\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\frameDocument.cpp">
+      <Filter>forms\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\baseControlMethods.cpp">
+      <Filter>forms\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\baseControl.cpp">
+      <Filter>forms\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\baseControlID.cpp">
+      <Filter>forms\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="window\property\objinspect.cpp">
+      <Filter>window\property</Filter>
+    </ClCompile>
+    <ClCompile Include="window\property\objinspect_events.cpp">
+      <Filter>window\property</Filter>
+    </ClCompile>
+    <ClCompile Include="window\property\objinspect_init.cpp">
+      <Filter>window\property</Filter>
+    </ClCompile>
+    <ClCompile Include="window\property\advprops.cpp">
+      <Filter>window\property</Filter>
+    </ClCompile>
+    <ClCompile Include="common\templates\text.cpp">
+      <Filter>common\templates</Filter>
+    </ClCompile>
+    <ClCompile Include="window\grid\print\controlprinter.cpp">
+      <Filter>window\grid\print</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\fs\lz\lzhuf.cpp">
+      <Filter>utils\fs\lz</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\fs\quicklz\quicklz.c">
+      <Filter>utils\fs\quicklz</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\special\enums\valueOrient.cpp">
+      <Filter>forms\special\enums</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\special\valueFont.cpp">
+      <Filter>forms\special</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\special\valuePoint.cpp">
+      <Filter>forms\special</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\special\valueSize.cpp">
+      <Filter>forms\special</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\special\valueColour.cpp">
+      <Filter>forms\special</Filter>
+    </ClCompile>
+    <ClCompile Include="window\grid\gridSections.cpp">
+      <Filter>window\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="window\grid\gridUtils.cpp">
+      <Filter>window\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="window\grid\gridCommon.cpp">
+      <Filter>window\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="window\grid\property\gridProperty.cpp">
+      <Filter>window\grid\property</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\visualEditorObjectTree.cpp">
+      <Filter>forms</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\visualEditorBaseEvents.cpp">
+      <Filter>forms</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\tableBox.cpp">
+      <Filter>forms\elements\table</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\tableBoxAction.cpp">
+      <Filter>forms\elements\table</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\tableBoxColumn.cpp">
+      <Filter>forms\elements\table</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\tableBoxEvents.cpp">
+      <Filter>forms\elements\table</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\tableBoxMenu.cpp">
+      <Filter>forms\elements\table</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\tableBoxMethods.cpp">
+      <Filter>forms\elements\table</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\toolBarEvents.cpp">
+      <Filter>forms\elements\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\toolBarItem.cpp">
+      <Filter>forms\elements\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\toolBarItemAction.cpp">
+      <Filter>forms\elements\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\toolBarMenu.cpp">
+      <Filter>forms\elements\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\toolBar.cpp">
+      <Filter>forms\elements\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\toolBarAction.cpp">
+      <Filter>forms\elements\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\gridBox.cpp">
+      <Filter>forms\elements\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\htmlBox.cpp">
+      <Filter>forms\elements\html</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\notebookPage.cpp">
+      <Filter>forms\elements\notebook</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\notebookEvents.cpp">
+      <Filter>forms\elements\notebook</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\notebookMenu.cpp">
+      <Filter>forms\elements\notebook</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\textctrlHandler.cpp">
+      <Filter>forms\elements\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\textctrlEvents.cpp">
+      <Filter>forms\elements\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\valueType.cpp">
+      <Filter>compiler\value\system</Filter>
+    </ClCompile>
+    <ClCompile Include="window\autocomplete\autoComplectionCtrl.cpp">
+      <Filter>window\autocomplete</Filter>
+    </ClCompile>
+    <ClCompile Include="mainApp.cpp" />
+    <ClCompile Include="window\autocomplete\autoComplectionPrintOut.cpp">
+      <Filter>window\autocomplete\printout</Filter>
+    </ClCompile>
+    <ClCompile Include="common\templates\formDesigner_doc.cpp">
+      <Filter>common\templates</Filter>
+    </ClCompile>
+    <ClCompile Include="common\templates\formDesigner.cpp">
+      <Filter>common\templates</Filter>
+    </ClCompile>
+    <ClCompile Include="common\templates\formDesigner_context.cpp">
+      <Filter>common\templates</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\systemObjectsEnums.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\enumFactory.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\enum.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="window\output\outputWindow.cpp">
+      <Filter>window\bottom\output</Filter>
+    </ClCompile>
+    <ClCompile Include="window\output\outputWindow_init.cpp">
+      <Filter>window\bottom\output</Filter>
+    </ClCompile>
+    <ClCompile Include="window\stack\stackWindow_init.cpp">
+      <Filter>window\bottom\stack</Filter>
+    </ClCompile>
+    <ClCompile Include="window\stack\stackWindow.cpp">
+      <Filter>window\bottom\stack</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\metaObjects\metaObjectProperty.cpp">
+      <Filter>metadata\metaObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\baseControlProperty.cpp">
+      <Filter>forms\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\valueFactory.cpp">
+      <Filter>compiler\value</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\valueTableModel.cpp">
+      <Filter>compiler\value</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\frameControls.cpp">
+      <Filter>forms\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="common\tableInfo.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\tablePart\tablePartModel.cpp">
+      <Filter>metadata\objects\tablePart</Filter>
+    </ClCompile>
+    <ClCompile Include="common\objectbase.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\types.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="database\resultSetMetaData.cpp">
+      <Filter>database</Filter>
+    </ClCompile>
+    <ClCompile Include="window\metatree\metatreeWnd.cpp">
+      <Filter>window\metatree</Filter>
+    </ClCompile>
+    <ClCompile Include="window\metatree\metatreeWndEvents.cpp">
+      <Filter>window\metatree</Filter>
+    </ClCompile>
+    <ClCompile Include="window\metatree\metatreeWnd_impl.cpp">
+      <Filter>window\metatree</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\clsid.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\metaObjects\metaObjectMetadataMenu.cpp">
+      <Filter>metadata\metaObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\metaObjects\metaModuleObjectMenu.cpp">
+      <Filter>metadata\metaObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\catalogMetadataMenu.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\documentMetadataMenu.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\enumerationMetadataMenu.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="common\templates\template.cpp">
+      <Filter>common\templates</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\moduleManager\moduleManagerEvents.cpp">
+      <Filter>metadata\moduleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\moduleManager\moduleManagerMethods.cpp">
+      <Filter>metadata\moduleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\moduleManager\moduleManager.cpp">
+      <Filter>metadata\moduleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\moduleManager\moduleManagerValue.cpp">
+      <Filter>metadata\moduleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\moduleManager\moduleManagerMetadata.cpp">
+      <Filter>metadata\moduleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\metaObjects\metaFormObjectMenu.cpp">
+      <Filter>metadata\metaObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\metaObjects\metaGridObjectMenu.cpp">
+      <Filter>metadata\metaObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="common\templates\module.cpp">
+      <Filter>common\templates</Filter>
+    </ClCompile>
+    <ClCompile Include="mainAppEx.cpp" />
+    <ClCompile Include="metadata\objects\dataProcessorMetadata.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\dataProcessorObject.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\dataProcessorMetadataMenu.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\dataProcessorAction.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\dataProcessorManager.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\dataProcessorManagerMethods.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="common\templates\metaFile.cpp">
+      <Filter>common\templates</Filter>
+    </ClCompile>
+    <ClCompile Include="common\templates\dataProcessorFile.cpp">
+      <Filter>common\templates</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\external\metadataDataProcessor.cpp">
+      <Filter>metadata\external</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\metadataBase.cpp">
+      <Filter>metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="window\external\dataProcessorWnd.cpp">
+      <Filter>window\external</Filter>
+    </ClCompile>
+    <ClCompile Include="window\external\dataProcessorWndEvent.cpp">
+      <Filter>window\external</Filter>
+    </ClCompile>
+    <ClCompile Include="window\external\dataProcessorWnd_impl.cpp">
+      <Filter>window\external</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\catalogObjectMethods.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\catalogObjectAttributes.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\documentObjectAttributes.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\documentObjectMethods.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\reference\referenceDB.cpp">
+      <Filter>metadata\objects\reference</Filter>
+    </ClCompile>
+    <ClCompile Include="window\formSelector\formSelector.cpp">
+      <Filter>window\formSelector</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\dataProcessorObjectMethods.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\objects\dataProcessorObjectAttributes.cpp">
+      <Filter>metadata\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata\metaObjects\metaFormObjectProperty.cpp">
+      <Filter>metadata\metaObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\valueTypeDescription.cpp">
+      <Filter>compiler\value\system</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\boxsizerProperty.cpp">
+      <Filter>forms\elements\sizers</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\wrapsizerProperty.cpp">
+      <Filter>forms\elements\sizers</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\elements\staticboxsizerProperty.cpp">
+      <Filter>forms\elements\sizers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="compiler\Methods.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\Functions.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\ProcUnit.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\translateModule.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\SPELL.h">
+      <Filter>compiler\value\spell</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\Definition.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata\metadata.h">
+      <Filter>metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="compiler\ValueFileSystem.h">
+      <Filter>compiler\value</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\ValueArray.h">
+      <Filter>compiler\value</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\Value.h">
+      <Filter>compiler\value</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\compileModule.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\compiler.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\reportmanager.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\valueOLE.h">
+      <Filter>compiler\value</Filter>
+    </ClInclude>
+    <ClInclude Include="window\theme\statusbar.h">
+      <Filter>window\theme</Filter>
+    </ClInclude>
+    <ClInclude Include="window\theme\luna_dockart.h">
+      <Filter>window\theme</Filter>
+    </ClInclude>
+    <ClInclude Include="window\theme\luna_auitabart.h">
+      <Filter>window\theme</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\fontcontainer.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\stringutils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\typeconv.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\bitmaps.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\bitmaps_res.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="window\settings\keybinderdialog.h">
+      <Filter>window\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="window\settings\settingsdialog.h">
+      <Filter>window\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="window\settings\fontcolorsettings.h">
+      <Filter>window\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="window\settings\fontcolorsettingspanel.h">
+      <Filter>window\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="window\settings\editorsettingspanel.h">
+      <Filter>window\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="window\settings\editorsettings.h">
+      <Filter>window\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="window\settings\showhelpevent.h">
+      <Filter>window\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="window\settings\keybinder.h">
+      <Filter>window\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="window\settings\xmlutility.h">
+      <Filter>window\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="window\settings\stlutility.h">
+      <Filter>window\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="window\settings\keymonitortextctrl.h">
+      <Filter>window\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="window\settings\statictextex.h">
+      <Filter>window\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\valueMap.h">
+      <Filter>compiler\value</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\valueQuery.h">
+      <Filter>compiler\value\sql</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\valuetable.h">
+      <Filter>compiler\value</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\fs\types.h">
+      <Filter>utils\fs</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\fs\fs.h">
+      <Filter>utils\fs</Filter>
+    </ClInclude>
+    <ClInclude Include="window\functionlist\functionlist.h">
+      <Filter>window\functionlist</Filter>
+    </ClInclude>
+    <ClInclude Include="forms\elements\widgets.h">
+      <Filter>forms\elements\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="forms\elements\icons\icons.h">
+      <Filter>forms\elements\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="forms\elements\sizers.h">
+      <Filter>forms\elements\sizers</Filter>
+    </ClInclude>
+    <ClInclude Include="forms\elements\window.h">
+      <Filter>forms\elements</Filter>
+    </ClInclude>
+    <ClInclude Include="window\title.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="window\watch\watchdroptarget.h">
+      <Filter>window\bottom\watch</Filter>
+    </ClInclude>
+    <ClInclude Include="window\watch\watchwindow.h">
+      <Filter>window\bottom\watch</Filter>
+    </ClInclude>
+    <ClInclude Include="forms\elements\notebook.h">
+      <Filter>forms\elements\notebook</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\valueText.h">
+      <Filter>compiler\value</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\ttmath\ttmathmisc.h">
+      <Filter>compiler\ttmath</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\ttmath\ttmathobjects.h">
+      <Filter>compiler\ttmath</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\ttmath\ttmathparser.h">
+      <Filter>compiler\ttmath</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\ttmath\ttmaththreads.h">
+      <Filter>compiler\ttmath</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\ttmath\ttmathtypes.h">
+      <Filter>compiler\ttmath</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\ttmath\ttmathuint.h">
+      <Filter>compiler\ttmath</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\ttmath\ttmathuint_noasm.h">
+      <Filter>compiler\ttmath</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\ttmath\ttmathuint_x86.h">
+      <Filter>compiler\ttmath</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\ttmath\ttmathuint_x86_64.h">
+      <Filter>compiler\ttmath</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\ttmath\ttmath.h">
+      <Filter>compiler\ttmath</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\ttmath\ttmathbig.h">
+      <Filter>compiler\ttmath</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\ttmath\ttmathdec.h">
+      <Filter>compiler\ttmath</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\ttmath\ttmathint.h">
+      <Filter>compiler\ttmath</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\guid.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\valueGrid.h">
+      <Filter>compiler\value</Filter>
+    </ClInclude>
+    <ClInclude Include="common\moduleInfo.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\codec\rfc2047.h">
+      <Filter>components\email\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\codec\rfc2231.h">
+      <Filter>components\email\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\codec\charsetconv.h">
+      <Filter>components\email\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\wxemail.h">
+      <Filter>components\email</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\wxsmtpdef.h">
+      <Filter>components\email</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\contentdescription.h">
+      <Filter>components\email\mimetic</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\contentdisposition.h">
+      <Filter>components\email\mimetic</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\contentid.h">
+      <Filter>components\email\mimetic</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\contenttransferencoding.h">
+      <Filter>components\email\mimetic</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\contenttype.h">
+      <Filter>components\email\mimetic</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\fieldparam.h">
+      <Filter>components\email\mimetic</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\header.h">
+      <Filter>components\email\mimetic</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\message.h">
+      <Filter>components\email\mimetic</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\mimeentity.h">
+      <Filter>components\email\mimetic</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\mimeentitylist.h">
+      <Filter>components\email\mimetic</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\mimetic.h">
+      <Filter>components\email\mimetic</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\mimeversion.h">
+      <Filter>components\email\mimetic</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\streambufs.h">
+      <Filter>components\email\mimetic</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\strutils.h">
+      <Filter>components\email\mimetic</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\tokenizer.h">
+      <Filter>components\email\mimetic</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\tree.h">
+      <Filter>components\email\mimetic</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\utils.h">
+      <Filter>components\email\mimetic</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\version.h">
+      <Filter>components\email\mimetic</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\wxFileIterator.h">
+      <Filter>components\email\mimetic</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\body.h">
+      <Filter>components\email\mimetic</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\circular_buffer.h">
+      <Filter>components\email\mimetic</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\utils\wxcmdprot.h">
+      <Filter>components\email\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\utils\wxmd5.hpp">
+      <Filter>components\email\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\ssl\wxOpenSSL.h">
+      <Filter>components\email\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\ssl\wxSSLSocketClient.h">
+      <Filter>components\email\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\smtp\wxsmtp.h">
+      <Filter>components\email\smtp</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\pop3\wxpop3.h">
+      <Filter>components\email\pop3</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\codec\code.h">
+      <Filter>components\email\mimetic\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\codec\codec.h">
+      <Filter>components\email\mimetic\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\codec\codec_base.h">
+      <Filter>components\email\mimetic\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\codec\codec_chain.h">
+      <Filter>components\email\mimetic\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\codec\other_codecs.h">
+      <Filter>components\email\mimetic\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\codec\qp.h">
+      <Filter>components\email\mimetic\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\codec\base64.h">
+      <Filter>components\email\mimetic\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\parser\itparserdecl.h">
+      <Filter>components\email\mimetic\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\parser\itparser.h">
+      <Filter>components\email\mimetic\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\rfc822\datetime.h">
+      <Filter>components\email\mimetic\rfc822</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\rfc822\field.h">
+      <Filter>components\email\mimetic\rfc822</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\rfc822\fieldvalue.h">
+      <Filter>components\email\mimetic\rfc822</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\rfc822\group.h">
+      <Filter>components\email\mimetic\rfc822</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\rfc822\header.h">
+      <Filter>components\email\mimetic\rfc822</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\rfc822\mailbox.h">
+      <Filter>components\email\mimetic\rfc822</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\rfc822\mailboxlist.h">
+      <Filter>components\email\mimetic\rfc822</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\rfc822\message.h">
+      <Filter>components\email\mimetic\rfc822</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\rfc822\messageid.h">
+      <Filter>components\email\mimetic\rfc822</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\rfc822\rfc822.h">
+      <Filter>components\email\mimetic\rfc822</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\rfc822\address.h">
+      <Filter>components\email\mimetic\rfc822</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\rfc822\addresslist.h">
+      <Filter>components\email\mimetic\rfc822</Filter>
+    </ClInclude>
+    <ClInclude Include="components\email\mimetic\rfc822\body.h">
+      <Filter>components\email\mimetic\rfc822</Filter>
+    </ClInclude>
+    <ClInclude Include="components\json\jsonval.h">
+      <Filter>components\json</Filter>
+    </ClInclude>
+    <ClInclude Include="components\json\jsonwriter.h">
+      <Filter>components\json</Filter>
+    </ClInclude>
+    <ClInclude Include="components\json\json_defs.h">
+      <Filter>components\json</Filter>
+    </ClInclude>
+    <ClInclude Include="components\json\jsonreader.h">
+      <Filter>components\json</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxbarchart.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxbarchartctrl.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxbarchartdatasetoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxbarchartoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxboxplot.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxboxplotctrl.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxboxplotdatasetoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxboxplotoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxbubblechart.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxbubblechartctrl.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxbubblechartoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxcandlestickchart.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxcandlestickchartctrl.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxcandlestickchartoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchart.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartbackground.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartbackgroundoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartcommonoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartctrl.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartfontoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartmultitooltip.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartmultitooltipoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartobservers.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartpadding.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxcharts.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartsarc.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartsarcoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartsaxis.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartsaxisoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartsbrushoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartscategoricalaxis.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartscategoricaldata.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartscategoricaldataobserver.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartscircle.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartscircleoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartsdataset.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartsdatasetid.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartsdatasettheme.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartsdoubledataset.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartselement.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartsgrid.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartsgridmapping.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartsgridoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartslabel.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartslabelgroup.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartslabeloptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartslegendctrl.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartslegenditem.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartslegendline.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartslegendlineoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartslegendoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartslicedata.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartsnumericalaxis.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartsohlcdata.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartspenoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartspoint.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartspointoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartsprecisiontheme.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartspresentationtheme.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartsradialgrid.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartsradialgridoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartsrectangle.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartsrectangleoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartstheme.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartsthemefactory.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartsthemeid.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartstimeaxis.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxchartsutilities.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxcharttooltip.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxcharttooltipoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxcharttooltipprovider.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxcolumnchart.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxcolumnchartctrl.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxcolumnchartdatasetoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxcolumnchartoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxcombinationchart.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxcombinationchartctrl.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxcombinationchartoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxdoughnutandpiechartbase.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxdoughnutandpiechartoptionsbase.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxdoughnutchart.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxdoughnutchartctrl.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxdoughnutchartoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxhistogram.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxhistogramctrl.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxhistogramoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxlinechart.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxlinechartctrl.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxlinechartdatasetoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxlinechartoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxmath2dplot.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxmath2dplotctrl.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxmath2dplotoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxohlcchart.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxohlcchartctrl.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxohlcchartoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxpiechart.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxpiechartctrl.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxpiechartoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxpolarareachart.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxpolarareachartctrl.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxpolarareachartoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxradarchart.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxradarchartctrl.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxradarchartoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxscatterplot.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxscatterplotctrl.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxscatterplotoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxstackedbarchart.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxstackedbarchartctrl.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxstackedbarchartdatasetoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxstackedbarchartoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxstackedcolumnchart.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxstackedcolumnchartctrl.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxstackedcolumnchartdatasetoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxstackedcolumnchartoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxtimeserieschart.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxtimeserieschartctrl.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxtimeserieschartoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxareachart.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxareachartctrl.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxareachartdatasetoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="window\charts\wxareachartoptions.h">
+      <Filter>window\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\events.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="database\databaseErrorReporter.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="database\databaseLayer.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="database\databaseLayerDef.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="database\databaseLayerException.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="database\databaseQueryParser.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="database\databaseResultSet.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="database\databaseStringConverter.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="database\preparedStatement.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="database\resultSetMetaData.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="database\databaseErrorCodes.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="database\postgres\postgresDatabaseLayer.h">
+      <Filter>database\postgres</Filter>
+    </ClInclude>
+    <ClInclude Include="database\postgres\postgresInterface.h">
+      <Filter>database\postgres</Filter>
+    </ClInclude>
+    <ClInclude Include="database\postgres\postgresParameter.h">
+      <Filter>database\postgres</Filter>
+    </ClInclude>
+    <ClInclude Include="database\postgres\postgresPreparedStatement.h">
+      <Filter>database\postgres</Filter>
+    </ClInclude>
+    <ClInclude Include="database\postgres\postgresPreparedStatementParameterCollection.h">
+      <Filter>database\postgres</Filter>
+    </ClInclude>
+    <ClInclude Include="database\postgres\postgresPreparedStatementWrapper.h">
+      <Filter>database\postgres</Filter>
+    </ClInclude>
+    <ClInclude Include="database\postgres\postgresResultSet.h">
+      <Filter>database\postgres</Filter>
+    </ClInclude>
+    <ClInclude Include="database\postgres\postgresResultSetMetaData.h">
+      <Filter>database\postgres</Filter>
+    </ClInclude>
+    <ClInclude Include="database\odbc\odbcDatabaseLayer.h">
+      <Filter>database\odbc</Filter>
+    </ClInclude>
+    <ClInclude Include="database\odbc\odbcInterface.h">
+      <Filter>database\odbc</Filter>
+    </ClInclude>
+    <ClInclude Include="database\odbc\odbcParameter.h">
+      <Filter>database\odbc</Filter>
+    </ClInclude>
+    <ClInclude Include="database\odbc\odbcPreparedStatement.h">
+      <Filter>database\odbc</Filter>
+    </ClInclude>
+    <ClInclude Include="database\odbc\odbcResultSet.h">
+      <Filter>database\odbc</Filter>
+    </ClInclude>
+    <ClInclude Include="database\odbc\odbcResultSetMetaData.h">
+      <Filter>database\odbc</Filter>
+    </ClInclude>
+    <ClInclude Include="database\firebird\firebirdParameterCollection.h">
+      <Filter>database\firebird</Filter>
+    </ClInclude>
+    <ClInclude Include="database\firebird\firebirdPreparedStatement.h">
+      <Filter>database\firebird</Filter>
+    </ClInclude>
+    <ClInclude Include="database\firebird\firebirdPreparedStatementWrapper.h">
+      <Filter>database\firebird</Filter>
+    </ClInclude>
+    <ClInclude Include="database\firebird\firebirdResultSet.h">
+      <Filter>database\firebird</Filter>
+    </ClInclude>
+    <ClInclude Include="database\firebird\firebirdResultSetMetaData.h">
+      <Filter>database\firebird</Filter>
+    </ClInclude>
+    <ClInclude Include="database\firebird\firebirdDatabaseLayer.h">
+      <Filter>database\firebird</Filter>
+    </ClInclude>
+    <ClInclude Include="database\firebird\firebirdInterface.h">
+      <Filter>database\firebird</Filter>
+    </ClInclude>
+    <ClInclude Include="database\firebird\firebirdParameter.h">
+      <Filter>database\firebird</Filter>
+    </ClInclude>
+    <ClInclude Include="database\firebird\engine\ib_util.h">
+      <Filter>database\firebird\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="database\firebird\engine\ibase.h">
+      <Filter>database\firebird\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="database\firebird\engine\iberror.h">
+      <Filter>database\firebird\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="window\watch\watchctrl.h">
+      <Filter>window\bottom\watch</Filter>
+    </ClInclude>
+    <ClInclude Include="window\controls\treelistctrl.h">
+      <Filter>window\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\systemObjects.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\queryUnit.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\debugger\debugClient.h">
+      <Filter>compiler\debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\debugger\debugDefs.h">
+      <Filter>compiler\debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\debugger\debugEvent.h">
+      <Filter>compiler\debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\debugger\debugServer.h">
+      <Filter>compiler\debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="database\sqllite\engine\sqlite3.h">
+      <Filter>database\sqllite\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="database\sqllite\sqliteDatabaseLayer.h">
+      <Filter>database\sqllite</Filter>
+    </ClInclude>
+    <ClInclude Include="database\sqllite\sqlitePreparedStatement.h">
+      <Filter>database\sqllite</Filter>
+    </ClInclude>
+    <ClInclude Include="database\sqllite\sqliteResultSet.h">
+      <Filter>database\sqllite</Filter>
+    </ClInclude>
+    <ClInclude Include="database\sqllite\sqliteResultSetMetaData.h">
+      <Filter>database\sqllite</Filter>
+    </ClInclude>
+    <ClInclude Include="database\sqllite\engine\config.h">
+      <Filter>database\sqllite\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="forms\elements\frame.h">
+      <Filter>forms\elements</Filter>
+    </ClInclude>
+    <ClInclude Include="window\autocomplete\autoComplectionCompile.h">
+      <Filter>window\autocomplete\precompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="window\autocomplete\components\callTip.h">
+      <Filter>window\autocomplete\components</Filter>
+    </ClInclude>
+    <ClInclude Include="window\autocomplete\components\autoComplete.h">
+      <Filter>window\autocomplete\components</Filter>
+    </ClInclude>
+    <ClInclude Include="window\autocomplete\components\helpers\listBoxVisualData.h">
+      <Filter>window\autocomplete\components\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="window\autocomplete\components\helpers\listBoxWnd.h">
+      <Filter>window\autocomplete\components\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="window\autocomplete\components\helpers\popupWnd.h">
+      <Filter>window\autocomplete\components\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="window\autocomplete\autoComplectionParser.h">
+      <Filter>window\autocomplete\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="window\autocomplete\components\helpers\fontAscent.h">
+      <Filter>window\autocomplete\components\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="window\lineInput.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="window\errorDialog.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="common\actionInfo.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ownerInfo.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="database\postgres\engine\libpq-fe.h">
+      <Filter>database\postgres\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="database\postgres\engine\pg_config_ext.h">
+      <Filter>database\postgres\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="database\postgres\engine\postgres_ext.h">
+      <Filter>database\postgres\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="database\postgres\engine\libpq\libpq-fs.h">
+      <Filter>database\postgres\engine\libpq</Filter>
+    </ClInclude>
+    <ClInclude Include="database\firebird\engine\firebird\impl\blr.h">
+      <Filter>database\firebird\engine\firebird\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="database\firebird\engine\firebird\impl\consts_pub.h">
+      <Filter>database\firebird\engine\firebird\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="database\firebird\engine\firebird\impl\dsc_pub.h">
+      <Filter>database\firebird\engine\firebird\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="database\firebird\engine\firebird\impl\inf_pub.h">
+      <Filter>database\firebird\engine\firebird\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="database\firebird\engine\firebird\impl\sqlda_pub.h">
+      <Filter>database\firebird\engine\firebird\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="database\firebird\engine\firebird\impl\types_pub.h">
+      <Filter>database\firebird\engine\firebird\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="window\watch\watchWindowEvents.h">
+      <Filter>window\bottom\watch</Filter>
+    </ClInclude>
+    <ClInclude Include="window\authorization.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="window\userWnd.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="window\userListWnd.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata\metaObjects\attributes\attributes.h">
+      <Filter>metadata\metaObjects\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata\metaObjects\tables\tables.h">
+      <Filter>metadata\metaObjects\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata\objects\reference\reference.h">
+      <Filter>metadata\objects\reference</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata\metaObjects\enumeration\enumeration.h">
+      <Filter>metadata\metaObjects\enumeration</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata\metaObjectsDefines.h">
+      <Filter>metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata\objects\tablePart\tablePart.h">
+      <Filter>metadata\objects\tablePart</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\tinyxml\ticppapi.h">
+      <Filter>utils\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\tinyxml\ticpprc.h">
+      <Filter>utils\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\tinyxml\tinystr.h">
+      <Filter>utils\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\tinyxml\tinyxml.h">
+      <Filter>utils\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\tinyxml\ticpp.h">
+      <Filter>utils\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="appData.h" />
+    <ClInclude Include="metadata\objects\enumerationManager.h">
+      <Filter>metadata\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata\objects\baseManager.h">
+      <Filter>metadata\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata\objects\baseObject.h">
+      <Filter>metadata\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata\objects\catalog.h">
+      <Filter>metadata\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata\objects\catalogManager.h">
+      <Filter>metadata\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata\objects\constants.h">
+      <Filter>metadata\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata\objects\constantsManager.h">
+      <Filter>metadata\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata\objects\document.h">
+      <Filter>metadata\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata\objects\documentManager.h">
+      <Filter>metadata\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata\objects\enumeration.h">
+      <Filter>metadata\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata\objects\list\objectList.h">
+      <Filter>metadata\objects\list</Filter>
+    </ClInclude>
+    <ClInclude Include="forms\visualEditor.h">
+      <Filter>forms</Filter>
+    </ClInclude>
+    <ClInclude Include="forms\visualEditorBase.h">
+      <Filter>forms</Filter>
+    </ClInclude>
+    <ClInclude Include="forms\pageWindow.h">
+      <Filter>forms\window</Filter>
+    </ClInclude>
+    <ClInclude Include="forms\windowButtons.h">
+      <Filter>forms\window</Filter>
+    </ClInclude>
+    <ClInclude Include="forms\innerFrame.h">
+      <Filter>forms\window</Filter>
+    </ClInclude>
+    <ClInclude Include="forms\visualEditorView.h">
+      <Filter>forms</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata\metaObjects\metaObject.h">
+      <Filter>metadata\metaObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata\metaObjects\metaModuleObject.h">
+      <Filter>metadata\metaObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata\metaObjects\metaGridObject.h">
+      <Filter>metadata\metaObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata\metaObjects\metaFormObject.h">
+      <Filter>metadata\metaObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="window\mainFrameChild.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="window\mainFrameDesigner.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="window\mainFrameEnterprise.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="window\mainFrame.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="window\autocomplete\autoComplectionCtrl.h">
+      <Filter>window\autocomplete</Filter>
+    </ClInclude>
+    <ClInclude Include="forms\elements\chartBox.h">
+      <Filter>forms\elements\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\valueGuid.h">
+      <Filter>compiler\value</Filter>
+    </ClInclude>
+    <ClInclude Include="common\docInfo.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\cmdProc.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\codeProc.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="forms\elements\baseControl.h">
+      <Filter>forms\elements</Filter>
+    </ClInclude>
+    <ClInclude Include="window\property\advprops.h">
+      <Filter>window\property</Filter>
+    </ClInclude>
+    <ClInclude Include="window\property\objinspect.h">
+      <Filter>window\property</Filter>
+    </ClInclude>
+    <ClInclude Include="common\templates\module.h">
+      <Filter>common\templates</Filter>
+    </ClInclude>
+    <ClInclude Include="common\templates\module_cmd.h">
+      <Filter>common\templates</Filter>
+    </ClInclude>
+    <ClInclude Include="common\templates\text.h">
+      <Filter>common\templates</Filter>
+    </ClInclude>
+    <ClInclude Include="window\grid\print\controlprinter.h">
+      <Filter>window\grid\print</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\fs\lz\lzhuf.h">
+      <Filter>utils\fs\lz</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\fs\quicklz\quicklz.h">
+      <Filter>utils\fs\quicklz</Filter>
+    </ClInclude>
+    <ClInclude Include="forms\special\enums\valueOrient.h">
+      <Filter>forms\special\enums</Filter>
+    </ClInclude>
+    <ClInclude Include="forms\special\valueFont.h">
+      <Filter>forms\special</Filter>
+    </ClInclude>
+    <ClInclude Include="forms\special\valuePoint.h">
+      <Filter>forms\special</Filter>
+    </ClInclude>
+    <ClInclude Include="forms\special\valueSize.h">
+      <Filter>forms\special</Filter>
+    </ClInclude>
+    <ClInclude Include="forms\special\valueColour.h">
+      <Filter>forms\special</Filter>
+    </ClInclude>
+    <ClInclude Include="window\grid\gridCommon.h">
+      <Filter>window\grid</Filter>
+    </ClInclude>
+    <ClInclude Include="window\grid\gridSections.h">
+      <Filter>window\grid</Filter>
+    </ClInclude>
+    <ClInclude Include="window\grid\gridUtils.h">
+      <Filter>window\grid</Filter>
+    </ClInclude>
+    <ClInclude Include="window\grid\gridCellRange.h">
+      <Filter>window\grid</Filter>
+    </ClInclude>
+    <ClInclude Include="window\grid\property\gridProperty.h">
+      <Filter>window\grid\property</Filter>
+    </ClInclude>
+    <ClInclude Include="window\controls\toolBarCtrl.h">
+      <Filter>window\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="forms\elements\tableBox.h">
+      <Filter>forms\elements\table</Filter>
+    </ClInclude>
+    <ClInclude Include="forms\elements\toolBar.h">
+      <Filter>forms\elements\toolbar</Filter>
+    </ClInclude>
+    <ClInclude Include="forms\elements\gridBox.h">
+      <Filter>forms\elements\grid</Filter>
+    </ClInclude>
+    <ClInclude Include="forms\elements\htmlBox.h">
+      <Filter>forms\elements\html</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\valueType.h">
+      <Filter>compiler\value\system</Filter>
+    </ClInclude>
+    <ClInclude Include="mainApp.h" />
+    <ClInclude Include="window\autocomplete\autoComplectionPrintOut.h">
+      <Filter>window\autocomplete\printout</Filter>
+    </ClInclude>
+    <ClInclude Include="forms\printout\formPrintOut.h">
+      <Filter>forms\printout</Filter>
+    </ClInclude>
+    <ClInclude Include="common\templates\formDesigner.h">
+      <Filter>common\templates</Filter>
+    </ClInclude>
+    <ClInclude Include="common\templates\formDesigner_cmd.h">
+      <Filter>common\templates</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\systemObjectsEnums.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\systemEnums.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\enumFactory.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\enum.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\enumObject.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="window\output\outputWindow.h">
+      <Filter>window\bottom\output</Filter>
+    </ClInclude>
+    <ClInclude Include="window\stack\stackWindow.h">
+      <Filter>window\bottom\stack</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\singleObject.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="common\tableInfo.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="forms\dvc\dvc.h">
+      <Filter>forms\dvc</Filter>
+    </ClInclude>
+    <ClInclude Include="common\objectbase.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\formdefs.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\types.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="window\metatree\metatreeWnd.h">
+      <Filter>window\metatree</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata\metaObjects\metaObjectMetadata.h">
+      <Filter>metadata\metaObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\clsid.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="common\templates\template.h">
+      <Filter>common\templates</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata\moduleManager\moduleManager.h">
+      <Filter>metadata\moduleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata\objects\dataProcessor.h">
+      <Filter>metadata\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata\objects\dataProcessorManager.h">
+      <Filter>metadata\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="common\templates\metaFile.h">
+      <Filter>common\templates</Filter>
+    </ClInclude>
+    <ClInclude Include="common\templates\dataProcessorFile.h">
+      <Filter>common\templates</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata\external\metadataDataProcessor.h">
+      <Filter>metadata\external</Filter>
+    </ClInclude>
+    <ClInclude Include="window\external\dataProcessorWnd.h">
+      <Filter>window\external</Filter>
+    </ClInclude>
+    <ClInclude Include="window\formSelector\formSelector.h">
+      <Filter>window\formSelector</Filter>
+    </ClInclude>
+    <ClInclude Include="common\managerInfo.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\valueTypeDescription.h">
+      <Filter>compiler\value\system</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{ecd9b890-c52c-4f12-bbe3-f0d47aed0bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compiler">
+      <UniqueIdentifier>{7eb1fc81-584e-4255-8c01-7c63c669b5ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compiler\value">
+      <UniqueIdentifier>{0a491bbc-78e9-4ba9-8db5-d951ad79865e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="metadata">
+      <UniqueIdentifier>{16b2256c-9d5d-433e-8ecc-d47244b9c4fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window">
+      <UniqueIdentifier>{027117ef-d17b-4ca0-acca-9730a67b9f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\theme">
+      <UniqueIdentifier>{9dfda661-c681-475f-823e-a21f3327c068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{6e59f26c-5079-4609-bf3c-3ce9b64bd91b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\settings">
+      <UniqueIdentifier>{19fd4dba-7018-40c5-b40e-c73ccccb425c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compiler\value\sql">
+      <UniqueIdentifier>{1edda21e-8101-4e32-8349-cd6e8eb3fc84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\fs">
+      <UniqueIdentifier>{d93b63b5-9b0d-4bf6-aa58-8a0264784a89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\functionlist">
+      <UniqueIdentifier>{bcf75dbd-0308-476b-b1eb-635c2c8ce877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="forms">
+      <UniqueIdentifier>{9ce00f1d-b066-41ee-946c-ab51bdb3311f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="forms\elements">
+      <UniqueIdentifier>{38b5ae8d-b030-4b6f-a90e-280570d20650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="forms\elements\widgets">
+      <UniqueIdentifier>{e74eba73-7da6-449d-b612-e190b70d7845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="forms\elements\sizers">
+      <UniqueIdentifier>{363b07ec-bae2-470c-84d4-5e73b42d6780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="forms\elements\icons">
+      <UniqueIdentifier>{2ec53906-c05e-4215-b13d-7adb77144133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="forms\window">
+      <UniqueIdentifier>{b3815db9-5493-41bb-8a08-91ff099cde82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compiler\value\spell">
+      <UniqueIdentifier>{7eaacf5a-1573-4105-800e-78adf9631cce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="forms\elements\grid">
+      <UniqueIdentifier>{ceeff7ec-004d-459d-9f9e-69a931390501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="forms\elements\table">
+      <UniqueIdentifier>{9cb6afae-b02b-4f9e-a903-e388e1316dad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="forms\elements\notebook">
+      <UniqueIdentifier>{dd32e715-c37b-4d38-847a-0e496e78187c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\bottom">
+      <UniqueIdentifier>{9c7c60a8-c1fd-42ea-bd54-e1bbfaa80e14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\bottom\stack">
+      <UniqueIdentifier>{3c335bfa-4b1c-4493-8cf7-15b5618f4fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\bottom\output">
+      <UniqueIdentifier>{117d9b48-fc7d-4a1c-8087-d446926ec2bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\bottom\watch">
+      <UniqueIdentifier>{c449dc6b-15ab-4bbd-93a3-d9491ef98d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\autocomplete">
+      <UniqueIdentifier>{adeff735-b233-4319-ab1d-d1b21a0d1530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\autocomplete\precompiler">
+      <UniqueIdentifier>{cc06a6e8-8498-45bc-837c-6c53e171620a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\top">
+      <UniqueIdentifier>{e4ced762-edea-492a-abd7-a0453e0cfd65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compiler\ttmath">
+      <UniqueIdentifier>{86f6ad67-8a16-4f6f-bd91-8244c4feb911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="forms\special">
+      <UniqueIdentifier>{68f9c2ae-7753-4528-a7c2-f75a9432b523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compiler\value\system">
+      <UniqueIdentifier>{76125a04-884b-48e9-8e32-56276fd18218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="forms\special\enums">
+      <UniqueIdentifier>{e5930165-b338-4e17-b351-3ad2254969b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components">
+      <UniqueIdentifier>{86097b31-81e9-45d2-b854-25d43c7afc57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\xml">
+      <UniqueIdentifier>{9ae572b0-7633-40df-9fe1-2803199b47fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\json">
+      <UniqueIdentifier>{dcd5eb6c-4379-4ebe-a9ba-48fd5c8aad5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\email">
+      <UniqueIdentifier>{da5635d8-e361-422a-92cd-6a02967d745d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\email\codec">
+      <UniqueIdentifier>{fd4d63db-5f65-4d7f-ae0a-7b58bc376567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\email\mimetic">
+      <UniqueIdentifier>{82c6e8bc-3d47-4635-bee9-8ac5b63eb4bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\email\pop3">
+      <UniqueIdentifier>{8cff93ce-1b4e-4ea7-9fe3-9d9be06e24a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\email\smtp">
+      <UniqueIdentifier>{62d44860-4ff0-46f4-ba85-827fd637b0b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\email\ssl">
+      <UniqueIdentifier>{c469686c-9262-4644-a1bf-aa6492e1702d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\email\utils">
+      <UniqueIdentifier>{d8ccaee3-f965-4e37-88d2-d1e622679bda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\email\mimetic\codec">
+      <UniqueIdentifier>{f74d2a61-8ea5-4bce-8dea-2bc94caa9603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\email\mimetic\parser">
+      <UniqueIdentifier>{d21f6bfb-62ce-4b19-b519-0b5d694a6203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\email\mimetic\rfc822">
+      <UniqueIdentifier>{a4e1b620-4e50-49c1-9a6b-4d502a38e371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\charts">
+      <UniqueIdentifier>{627689ce-404d-4e6a-8dfb-4aa9b46991c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compiler\debugger">
+      <UniqueIdentifier>{56893071-f0cd-47e6-90b7-1aa172d89ca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="database">
+      <UniqueIdentifier>{0e6869cc-0cc8-4fac-b886-caa89de867da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="database\odbc">
+      <UniqueIdentifier>{71a7903c-81f2-4293-91db-5db460f90a55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="database\postgres">
+      <UniqueIdentifier>{57766be6-a0da-4795-9c55-67e4fec0087e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="database\firebird">
+      <UniqueIdentifier>{1af4ad81-2cd7-49cd-97ed-bb6d28fcd7ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="database\firebird\engine">
+      <UniqueIdentifier>{d3793b94-b7d5-4c10-bf46-1a5ab474f510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\controls">
+      <UniqueIdentifier>{c1d57eed-ccd9-42ce-9591-3d1d6855157c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="database\sqllite">
+      <UniqueIdentifier>{19d8f616-3ed1-4cfb-86e5-1f4caed3f1b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="database\sqllite\engine">
+      <UniqueIdentifier>{ed751393-50f0-4915-91f9-29375e015785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="forms\elements\html">
+      <UniqueIdentifier>{d10c1662-da8e-42f3-8558-35c8dbe64968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="forms\elements\text">
+      <UniqueIdentifier>{f1eea37c-2355-49cf-9441-5869c781eb81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="forms\elements\tree">
+      <UniqueIdentifier>{dc208242-b47d-47ce-b59f-14714786bba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="forms\elements\toolbar">
+      <UniqueIdentifier>{6f5a1d8e-e48e-48fb-bfe6-114f61fcd4ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\autocomplete\components">
+      <UniqueIdentifier>{a334e282-7bf0-4e91-80a6-669cac3d816e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\autocomplete\components\helpers">
+      <UniqueIdentifier>{755f4c93-93d6-4664-b156-0ecd0b5f2f2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\autocomplete\parser">
+      <UniqueIdentifier>{1739f256-7dcf-4a4f-92c0-d3076ecb281d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="database\postgres\engine">
+      <UniqueIdentifier>{dc04e239-384a-4051-bd98-be3e77ae658a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="database\postgres\engine\libpq">
+      <UniqueIdentifier>{3e904fef-eaee-403c-8a1d-c39723e96800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="database\firebird\engine\firebird">
+      <UniqueIdentifier>{1dd2c7dc-76c0-4e17-be06-8111054c7236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="database\firebird\engine\firebird\impl">
+      <UniqueIdentifier>{276dee72-e4d7-4cdf-8730-31b6fe9e3e44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="metadata\objects">
+      <UniqueIdentifier>{b4fbe95e-caa0-4e86-b046-e7d21786c3bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="metadata\metaObjects">
+      <UniqueIdentifier>{6f49ecca-7ed5-4ed2-bb1d-63954859d9ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="metadata\metaObjects\attributes">
+      <UniqueIdentifier>{85f71919-9689-4fe6-acfd-54634274e80e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="metadata\metaObjects\tables">
+      <UniqueIdentifier>{027b777e-5eec-405c-8f98-8998a47df91e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="metadata\objects\tablePart">
+      <UniqueIdentifier>{e52bf6b3-9ca1-42b3-9446-7fc3edb9ef31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="metadata\objects\reference">
+      <UniqueIdentifier>{bae06d94-fa4e-402f-8bf8-ad19e3d0dbd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="metadata\objects\list">
+      <UniqueIdentifier>{9865eb58-7324-42d0-b2d1-376cfa12f071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="metadata\metaObjects\enumeration">
+      <UniqueIdentifier>{8cd657c1-9cf0-40c0-9726-84185577a920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\tinyxml">
+      <UniqueIdentifier>{75aea7d3-431e-4bfb-b6cb-4ee075e1813f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="forms\elements\charts">
+      <UniqueIdentifier>{7b61f081-ad0c-4eee-9495-9b6bbb405101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\property">
+      <UniqueIdentifier>{bfaef98a-ed84-4cca-99b1-b300aad42b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\templates">
+      <UniqueIdentifier>{17df4eda-0f0e-4df8-b0e2-dee22d999e29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\grid">
+      <UniqueIdentifier>{b3d83946-ac4e-471f-b7d1-841616372a58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\grid\print">
+      <UniqueIdentifier>{33516765-32ac-4735-bdde-31fadcf74d5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\grid\property">
+      <UniqueIdentifier>{e59e2beb-cc72-4e8b-8f41-778f5ac8f195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\fs\lz">
+      <UniqueIdentifier>{b6862b2f-8831-4624-b105-900caa1bb1f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\fs\quicklz">
+      <UniqueIdentifier>{37b162ba-ddb3-420e-b4e2-e37e0255e01c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{7ad1ff6a-cdbe-4dbc-9048-8141e7381d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\autocomplete\printout">
+      <UniqueIdentifier>{5a170183-f77b-4846-84ab-63a447e1d475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="forms\printout">
+      <UniqueIdentifier>{456337f5-9396-469a-8151-eb0ea96627b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="forms\dvc">
+      <UniqueIdentifier>{f2a1285b-d330-422c-b6b5-9d5ff599c8a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\metatree">
+      <UniqueIdentifier>{7b504c7d-4f3b-4a7f-9281-40ce46f2e297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="metadata\moduleManager">
+      <UniqueIdentifier>{e04d0e45-e753-483d-98d8-d1fa2a2ec8d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="metadata\external">
+      <UniqueIdentifier>{43fc758f-6330-46d1-9f78-7a4507804ef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\external">
+      <UniqueIdentifier>{445a646c-5963-4131-92f4-c3f03c2bb878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\formSelector">
+      <UniqueIdentifier>{f5b84c35-f3c6-44fa-b084-6052142c5d27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="utils\default.xpm">
+      <Filter>utils</Filter>
+    </None>
+    <None Include="forms\elements\icons\button16x16.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\checkbox.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\choice.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\combo_box.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\gauge.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\infobar.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\list_box.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\list_ctrl.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\menu.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\menubar.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\menuitem.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\radio_box.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\radio_button.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\separator.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\slider.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\static_bitmap.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\static_line.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\static_text.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\statusbar.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\submenu.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\text_ctrl.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\tool.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\toolbar.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\toolSeparator.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\animation.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\auitoolbar.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\bitmap_button.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\button.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\stddialogbuttonsizer.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\flex_grid_sizer.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\grid_bag_sizer.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\grid_sizer.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\sizer.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\sizer16x16.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\staticbox_sizer.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\wrap_sizer.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="forms\elements\icons\grid.xpm">
+      <Filter>forms\elements\icons</Filter>
+    </None>
+    <None Include="resources\splashLogo.xpm">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="res\pointer_.cur">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="res\cur00010.cur">
+      <Filter>resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="compiler\ttmath\ttmathuint_x86_64_msvc.asm">
+      <Filter>compiler\ttmath</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\jurnaldo.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\idr_samp.ico">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\bitmap4.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\bitmap5.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\Piktogramki.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\PADDOC.ICO">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\idr_meta.ico">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\idr_laye.ico">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\idr_help.ico">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\idr_edit.ico">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\ico00003.ico">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\ico00002.ico">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\ico00001.ico">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\EnterpriseDoc.ico">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\Enterprise.ico">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\edit_sec.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\edit_new.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\edit_pas.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\edit_mak.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\edit_for.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\edit_cut.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\edit_cop.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\Dialog.ico">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\bmp00012.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\bmp00011.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\bmp00010.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\bmp00008.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\bmp00007.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\bmp00006.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\bmp00005.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\bmp00004.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\bmp00002.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\bitmap9.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\bitmap8.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\bitmap7.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\bitmap6.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\bitmap10.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\bmp00003.bmp">
+      <Filter>resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

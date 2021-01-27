@@ -1,0 +1,1260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="appData.h" />
+    <ClInclude Include="common\actionInfo.h" />
+    <ClInclude Include="common\cmdProc.h" />
+    <ClInclude Include="common\codeProc.h" />
+    <ClInclude Include="common\docInfo.h" />
+    <ClInclude Include="common\formdefs.h" />
+    <ClInclude Include="common\managerInfo.h" />
+    <ClInclude Include="common\moduleInfo.h" />
+    <ClInclude Include="common\objectbase.h" />
+    <ClInclude Include="common\ownerInfo.h" />
+    <ClInclude Include="Common\reportManager.h" />
+    <ClInclude Include="common\tableInfo.h" />
+    <ClInclude Include="common\templates\dataProcessorFile.h" />
+    <ClInclude Include="common\templates\formDesigner.h" />
+    <ClInclude Include="common\templates\formDesigner_cmd.h" />
+    <ClInclude Include="common\templates\metaFile.h" />
+    <ClInclude Include="common\templates\template.h" />
+    <ClInclude Include="common\templates\module.h" />
+    <ClInclude Include="common\templates\module_cmd.h" />
+    <ClInclude Include="common\templates\text.h" />
+    <ClInclude Include="common\types.h" />
+    <ClInclude Include="compiler\compileModule.h" />
+    <ClInclude Include="compiler\compiler.h" />
+    <ClInclude Include="compiler\debugger\debugClient.h" />
+    <ClInclude Include="compiler\debugger\debugDefs.h" />
+    <ClInclude Include="compiler\debugger\debugEvent.h" />
+    <ClInclude Include="compiler\debugger\debugServer.h" />
+    <ClInclude Include="compiler\definition.h" />
+    <ClInclude Include="compiler\enum.h" />
+    <ClInclude Include="compiler\enumFactory.h" />
+    <ClInclude Include="compiler\enumObject.h" />
+    <ClInclude Include="compiler\functions.h" />
+    <ClInclude Include="compiler\methods.h" />
+    <ClInclude Include="compiler\procUnit.h" />
+    <ClInclude Include="compiler\queryUnit.h" />
+    <ClInclude Include="compiler\singleObject.h" />
+    <ClInclude Include="compiler\spell.h" />
+    <ClInclude Include="compiler\systemEnums.h" />
+    <ClInclude Include="compiler\systemObjects.h" />
+    <ClInclude Include="compiler\systemObjectsEnums.h" />
+    <ClInclude Include="compiler\translateModule.h" />
+    <ClInclude Include="compiler\ttmath\ttmath.h" />
+    <ClInclude Include="compiler\ttmath\ttmathbig.h" />
+    <ClInclude Include="compiler\ttmath\ttmathdec.h" />
+    <ClInclude Include="compiler\ttmath\ttmathint.h" />
+    <ClInclude Include="compiler\ttmath\ttmathmisc.h" />
+    <ClInclude Include="compiler\ttmath\ttmathobjects.h" />
+    <ClInclude Include="compiler\ttmath\ttmathparser.h" />
+    <ClInclude Include="compiler\ttmath\ttmaththreads.h" />
+    <ClInclude Include="compiler\ttmath\ttmathtypes.h" />
+    <ClInclude Include="compiler\ttmath\ttmathuint.h" />
+    <ClInclude Include="compiler\ttmath\ttmathuint_noasm.h" />
+    <ClInclude Include="compiler\ttmath\ttmathuint_x86.h" />
+    <ClInclude Include="compiler\ttmath\ttmathuint_x86_64.h" />
+    <ClInclude Include="compiler\value.h" />
+    <ClInclude Include="compiler\valueArray.h" />
+    <ClInclude Include="compiler\valueFileSystem.h" />
+    <ClInclude Include="compiler\valueGrid.h" />
+    <ClInclude Include="compiler\valueGuid.h" />
+    <ClInclude Include="compiler\valueMap.h" />
+    <ClInclude Include="compiler\valueQuery.h" />
+    <ClInclude Include="compiler\valueTable.h" />
+    <ClInclude Include="compiler\valueOLE.h" />
+    <ClInclude Include="compiler\valueText.h" />
+    <ClInclude Include="compiler\valueType.h" />
+    <ClInclude Include="compiler\valueTypeDescription.h" />
+    <ClInclude Include="components\email\codec\charsetconv.h" />
+    <ClInclude Include="components\email\codec\rfc2047.h" />
+    <ClInclude Include="components\email\codec\rfc2231.h" />
+    <ClInclude Include="components\email\mimetic\body.h" />
+    <ClInclude Include="components\email\mimetic\circular_buffer.h" />
+    <ClInclude Include="components\email\mimetic\codec\base64.h" />
+    <ClInclude Include="components\email\mimetic\codec\code.h" />
+    <ClInclude Include="components\email\mimetic\codec\codec.h" />
+    <ClInclude Include="components\email\mimetic\codec\codec_base.h" />
+    <ClInclude Include="components\email\mimetic\codec\codec_chain.h" />
+    <ClInclude Include="components\email\mimetic\codec\other_codecs.h" />
+    <ClInclude Include="components\email\mimetic\codec\qp.h" />
+    <ClInclude Include="components\email\mimetic\contentdescription.h" />
+    <ClInclude Include="components\email\mimetic\contentdisposition.h" />
+    <ClInclude Include="components\email\mimetic\contentid.h" />
+    <ClInclude Include="components\email\mimetic\contenttransferencoding.h" />
+    <ClInclude Include="components\email\mimetic\contenttype.h" />
+    <ClInclude Include="components\email\mimetic\fieldparam.h" />
+    <ClInclude Include="components\email\mimetic\header.h" />
+    <ClInclude Include="components\email\mimetic\message.h" />
+    <ClInclude Include="components\email\mimetic\mimeentity.h" />
+    <ClInclude Include="components\email\mimetic\mimeentitylist.h" />
+    <ClInclude Include="components\email\mimetic\mimetic.h" />
+    <ClInclude Include="components\email\mimetic\mimeversion.h" />
+    <ClInclude Include="components\email\mimetic\parser\itparser.h" />
+    <ClInclude Include="components\email\mimetic\parser\itparserdecl.h" />
+    <ClInclude Include="components\email\mimetic\rfc822\address.h" />
+    <ClInclude Include="components\email\mimetic\rfc822\addresslist.h" />
+    <ClInclude Include="components\email\mimetic\rfc822\body.h" />
+    <ClInclude Include="components\email\mimetic\rfc822\datetime.h" />
+    <ClInclude Include="components\email\mimetic\rfc822\field.h" />
+    <ClInclude Include="components\email\mimetic\rfc822\fieldvalue.h" />
+    <ClInclude Include="components\email\mimetic\rfc822\group.h" />
+    <ClInclude Include="components\email\mimetic\rfc822\header.h" />
+    <ClInclude Include="components\email\mimetic\rfc822\mailbox.h" />
+    <ClInclude Include="components\email\mimetic\rfc822\mailboxlist.h" />
+    <ClInclude Include="components\email\mimetic\rfc822\message.h" />
+    <ClInclude Include="components\email\mimetic\rfc822\messageid.h" />
+    <ClInclude Include="components\email\mimetic\rfc822\rfc822.h" />
+    <ClInclude Include="components\email\mimetic\streambufs.h" />
+    <ClInclude Include="components\email\mimetic\strutils.h" />
+    <ClInclude Include="components\email\mimetic\tokenizer.h" />
+    <ClInclude Include="components\email\mimetic\tree.h" />
+    <ClInclude Include="components\email\mimetic\utils.h" />
+    <ClInclude Include="components\email\mimetic\version.h" />
+    <ClInclude Include="components\email\mimetic\wxFileIterator.h" />
+    <ClInclude Include="components\email\pop3\wxpop3.h" />
+    <ClInclude Include="components\email\smtp\wxsmtp.h" />
+    <ClInclude Include="components\email\ssl\wxOpenSSL.h" />
+    <ClInclude Include="components\email\ssl\wxSSLSocketClient.h" />
+    <ClInclude Include="components\email\utils\wxcmdprot.h" />
+    <ClInclude Include="components\email\utils\wxmd5.hpp" />
+    <ClInclude Include="components\email\wxemail.h" />
+    <ClInclude Include="components\email\wxsmtpdef.h" />
+    <ClInclude Include="components\json\jsonreader.h" />
+    <ClInclude Include="components\json\jsonval.h" />
+    <ClInclude Include="components\json\jsonwriter.h" />
+    <ClInclude Include="components\json\json_defs.h" />
+    <ClInclude Include="database\databaseErrorCodes.h" />
+    <ClInclude Include="database\databaseErrorReporter.h" />
+    <ClInclude Include="database\databaseLayer.h" />
+    <ClInclude Include="database\databaseLayerDef.h" />
+    <ClInclude Include="database\databaseLayerException.h" />
+    <ClInclude Include="database\databaseQueryParser.h" />
+    <ClInclude Include="database\databaseResultSet.h" />
+    <ClInclude Include="database\databaseStringConverter.h" />
+    <ClInclude Include="database\firebird\engine\firebird\impl\blr.h" />
+    <ClInclude Include="database\firebird\engine\firebird\impl\consts_pub.h" />
+    <ClInclude Include="database\firebird\engine\firebird\impl\dsc_pub.h" />
+    <ClInclude Include="database\firebird\engine\firebird\impl\inf_pub.h" />
+    <ClInclude Include="database\firebird\engine\firebird\impl\sqlda_pub.h" />
+    <ClInclude Include="database\firebird\engine\firebird\impl\types_pub.h" />
+    <ClInclude Include="database\firebird\engine\ibase.h" />
+    <ClInclude Include="database\firebird\engine\iberror.h" />
+    <ClInclude Include="database\firebird\engine\ib_util.h" />
+    <ClInclude Include="database\firebird\firebirdDatabaseLayer.h" />
+    <ClInclude Include="database\firebird\firebirdInterface.h" />
+    <ClInclude Include="database\firebird\firebirdParameter.h" />
+    <ClInclude Include="database\firebird\firebirdParameterCollection.h" />
+    <ClInclude Include="database\firebird\firebirdPreparedStatement.h" />
+    <ClInclude Include="database\firebird\firebirdPreparedStatementWrapper.h" />
+    <ClInclude Include="database\firebird\firebirdResultSet.h" />
+    <ClInclude Include="database\firebird\firebirdResultSetMetaData.h" />
+    <ClInclude Include="database\odbc\odbcDatabaseLayer.h" />
+    <ClInclude Include="database\odbc\odbcInterface.h" />
+    <ClInclude Include="database\odbc\odbcParameter.h" />
+    <ClInclude Include="database\odbc\odbcPreparedStatement.h" />
+    <ClInclude Include="database\odbc\odbcResultSet.h" />
+    <ClInclude Include="database\odbc\odbcResultSetMetaData.h" />
+    <ClInclude Include="database\postgres\engine\libpq-fe.h" />
+    <ClInclude Include="database\postgres\engine\libpq\libpq-fs.h" />
+    <ClInclude Include="database\postgres\engine\pg_config_ext.h" />
+    <ClInclude Include="database\postgres\engine\postgres_ext.h" />
+    <ClInclude Include="database\postgres\postgresDatabaseLayer.h" />
+    <ClInclude Include="database\postgres\postgresInterface.h" />
+    <ClInclude Include="database\postgres\postgresParameter.h" />
+    <ClInclude Include="database\postgres\postgresPreparedStatement.h" />
+    <ClInclude Include="database\postgres\postgresPreparedStatementParameterCollection.h" />
+    <ClInclude Include="database\postgres\postgresPreparedStatementWrapper.h" />
+    <ClInclude Include="database\postgres\postgresResultSet.h" />
+    <ClInclude Include="database\postgres\postgresResultSetMetaData.h" />
+    <ClInclude Include="database\preparedStatement.h" />
+    <ClInclude Include="database\resultSetMetaData.h" />
+    <ClInclude Include="database\sqllite\engine\config.h" />
+    <ClInclude Include="database\sqllite\engine\sqlite3.h" />
+    <ClInclude Include="database\sqllite\sqliteDatabaseLayer.h" />
+    <ClInclude Include="database\sqllite\sqlitePreparedStatement.h" />
+    <ClInclude Include="database\sqllite\sqliteResultSet.h" />
+    <ClInclude Include="database\sqllite\sqliteResultSetMetaData.h" />
+    <ClInclude Include="forms\dvc\dvc.h" />
+    <ClInclude Include="forms\elements\baseControl.h" />
+    <ClInclude Include="forms\elements\chartBox.h" />
+    <ClInclude Include="forms\elements\gridBox.h" />
+    <ClInclude Include="forms\elements\htmlBox.h" />
+    <ClInclude Include="forms\elements\icons\icons.h" />
+    <ClInclude Include="forms\elements\notebook.h" />
+    <ClInclude Include="forms\elements\tableBox.h" />
+    <ClInclude Include="forms\elements\toolBar.h" />
+    <ClInclude Include="forms\innerFrame.h" />
+    <ClInclude Include="forms\pageWindow.h" />
+    <ClInclude Include="forms\printout\formPrintOut.h" />
+    <ClInclude Include="forms\special\enums\valueOrient.h" />
+    <ClInclude Include="forms\special\valueColour.h" />
+    <ClInclude Include="forms\special\valueFont.h" />
+    <ClInclude Include="forms\special\valuePoint.h" />
+    <ClInclude Include="forms\special\valueSize.h" />
+    <ClInclude Include="forms\visualEditor.h" />
+    <ClInclude Include="forms\visualEditorBase.h" />
+    <ClInclude Include="forms\visualEditorView.h" />
+    <ClInclude Include="forms\windowButtons.h" />
+    <ClInclude Include="mainApp.h" />
+    <ClInclude Include="metadata\external\metadataDataProcessor.h" />
+    <ClInclude Include="metadata\metaObjectsDefines.h" />
+    <ClInclude Include="metadata\metaObjects\attributes\attributes.h" />
+    <ClInclude Include="metadata\metaObjects\enumeration\enumeration.h" />
+    <ClInclude Include="metadata\metaObjects\metaFormObject.h" />
+    <ClInclude Include="metadata\metaObjects\metaGridObject.h" />
+    <ClInclude Include="metadata\metaObjects\metaModuleObject.h" />
+    <ClInclude Include="metadata\metaObjects\metaObject.h" />
+    <ClInclude Include="metadata\metaObjects\metaObjectMetadata.h" />
+    <ClInclude Include="metadata\metaObjects\tables\tables.h" />
+    <ClInclude Include="metadata\moduleManager\moduleManager.h" />
+    <ClInclude Include="metadata\objects\baseManager.h" />
+    <ClInclude Include="metadata\objects\baseObject.h" />
+    <ClInclude Include="metadata\objects\catalog.h" />
+    <ClInclude Include="metadata\objects\catalogManager.h" />
+    <ClInclude Include="metadata\objects\constants.h" />
+    <ClInclude Include="metadata\objects\constantsManager.h" />
+    <ClInclude Include="metadata\objects\dataProcessor.h" />
+    <ClInclude Include="metadata\objects\dataProcessorManager.h" />
+    <ClInclude Include="metadata\objects\document.h" />
+    <ClInclude Include="metadata\objects\documentManager.h" />
+    <ClInclude Include="metadata\objects\enumeration.h" />
+    <ClInclude Include="metadata\objects\enumerationManager.h" />
+    <ClInclude Include="metadata\objects\list\objectList.h" />
+    <ClInclude Include="metadata\objects\reference\reference.h" />
+    <ClInclude Include="metadata\objects\tablePart\tablePart.h" />
+    <ClInclude Include="utils\bitmaps.h" />
+    <ClInclude Include="utils\bitmaps_res.h" />
+    <ClInclude Include="utils\clsid.h" />
+    <ClInclude Include="utils\events.h" />
+    <ClInclude Include="utils\fontcontainer.h" />
+    <ClInclude Include="utils\fs\fs.h" />
+    <ClInclude Include="utils\fs\lz\lzhuf.h" />
+    <ClInclude Include="utils\fs\quicklz\quicklz.h" />
+    <ClInclude Include="utils\fs\types.h" />
+    <ClInclude Include="utils\guid.h" />
+    <ClInclude Include="utils\stringutils.h" />
+    <ClInclude Include="utils\tinyxml\ticpp.h" />
+    <ClInclude Include="utils\tinyxml\ticppapi.h" />
+    <ClInclude Include="utils\tinyxml\ticpprc.h" />
+    <ClInclude Include="utils\tinyxml\tinystr.h" />
+    <ClInclude Include="utils\tinyxml\tinyxml.h" />
+    <ClInclude Include="utils\typeconv.h" />
+    <ClInclude Include="forms\elements\widgets.h" />
+    <ClInclude Include="forms\elements\frame.h" />
+    <ClInclude Include="forms\elements\sizers.h" />
+    <ClInclude Include="forms\elements\window.h" />
+    <ClInclude Include="metadata\metadata.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="window\authorization.h" />
+    <ClInclude Include="window\autocomplete\autoComplectionCompile.h" />
+    <ClInclude Include="window\autocomplete\autoComplectionCtrl.h" />
+    <ClInclude Include="window\autocomplete\autoComplectionParser.h" />
+    <ClInclude Include="window\autocomplete\autoComplectionPrintOut.h" />
+    <ClInclude Include="window\autocomplete\components\autoComplete.h" />
+    <ClInclude Include="window\autocomplete\components\callTip.h" />
+    <ClInclude Include="window\autocomplete\components\helpers\fontAscent.h" />
+    <ClInclude Include="window\autocomplete\components\helpers\listBoxVisualData.h" />
+    <ClInclude Include="window\autocomplete\components\helpers\listBoxWnd.h" />
+    <ClInclude Include="window\autocomplete\components\helpers\popupWnd.h" />
+    <ClInclude Include="window\charts\wxareachart.h" />
+    <ClInclude Include="window\charts\wxareachartctrl.h" />
+    <ClInclude Include="window\charts\wxareachartdatasetoptions.h" />
+    <ClInclude Include="window\charts\wxareachartoptions.h" />
+    <ClInclude Include="window\charts\wxbarchart.h" />
+    <ClInclude Include="window\charts\wxbarchartctrl.h" />
+    <ClInclude Include="window\charts\wxbarchartdatasetoptions.h" />
+    <ClInclude Include="window\charts\wxbarchartoptions.h" />
+    <ClInclude Include="window\charts\wxboxplot.h" />
+    <ClInclude Include="window\charts\wxboxplotctrl.h" />
+    <ClInclude Include="window\charts\wxboxplotdatasetoptions.h" />
+    <ClInclude Include="window\charts\wxboxplotoptions.h" />
+    <ClInclude Include="window\charts\wxbubblechart.h" />
+    <ClInclude Include="window\charts\wxbubblechartctrl.h" />
+    <ClInclude Include="window\charts\wxbubblechartoptions.h" />
+    <ClInclude Include="window\charts\wxcandlestickchart.h" />
+    <ClInclude Include="window\charts\wxcandlestickchartctrl.h" />
+    <ClInclude Include="window\charts\wxcandlestickchartoptions.h" />
+    <ClInclude Include="window\charts\wxchart.h" />
+    <ClInclude Include="window\charts\wxchartbackground.h" />
+    <ClInclude Include="window\charts\wxchartbackgroundoptions.h" />
+    <ClInclude Include="window\charts\wxchartcommonoptions.h" />
+    <ClInclude Include="window\charts\wxchartctrl.h" />
+    <ClInclude Include="window\charts\wxchartfontoptions.h" />
+    <ClInclude Include="window\charts\wxchartmultitooltip.h" />
+    <ClInclude Include="window\charts\wxchartmultitooltipoptions.h" />
+    <ClInclude Include="window\charts\wxchartobservers.h" />
+    <ClInclude Include="window\charts\wxchartoptions.h" />
+    <ClInclude Include="window\charts\wxchartpadding.h" />
+    <ClInclude Include="window\charts\wxcharts.h" />
+    <ClInclude Include="window\charts\wxchartsarc.h" />
+    <ClInclude Include="window\charts\wxchartsarcoptions.h" />
+    <ClInclude Include="window\charts\wxchartsaxis.h" />
+    <ClInclude Include="window\charts\wxchartsaxisoptions.h" />
+    <ClInclude Include="window\charts\wxchartsbrushoptions.h" />
+    <ClInclude Include="window\charts\wxchartscategoricalaxis.h" />
+    <ClInclude Include="window\charts\wxchartscategoricaldata.h" />
+    <ClInclude Include="window\charts\wxchartscategoricaldataobserver.h" />
+    <ClInclude Include="window\charts\wxchartscircle.h" />
+    <ClInclude Include="window\charts\wxchartscircleoptions.h" />
+    <ClInclude Include="window\charts\wxchartsdataset.h" />
+    <ClInclude Include="window\charts\wxchartsdatasetid.h" />
+    <ClInclude Include="window\charts\wxchartsdatasettheme.h" />
+    <ClInclude Include="window\charts\wxchartsdoubledataset.h" />
+    <ClInclude Include="window\charts\wxchartselement.h" />
+    <ClInclude Include="window\charts\wxchartsgrid.h" />
+    <ClInclude Include="window\charts\wxchartsgridmapping.h" />
+    <ClInclude Include="window\charts\wxchartsgridoptions.h" />
+    <ClInclude Include="window\charts\wxchartslabel.h" />
+    <ClInclude Include="window\charts\wxchartslabelgroup.h" />
+    <ClInclude Include="window\charts\wxchartslabeloptions.h" />
+    <ClInclude Include="window\charts\wxchartslegendctrl.h" />
+    <ClInclude Include="window\charts\wxchartslegenditem.h" />
+    <ClInclude Include="window\charts\wxchartslegendline.h" />
+    <ClInclude Include="window\charts\wxchartslegendlineoptions.h" />
+    <ClInclude Include="window\charts\wxchartslegendoptions.h" />
+    <ClInclude Include="window\charts\wxchartslicedata.h" />
+    <ClInclude Include="window\charts\wxchartsnumericalaxis.h" />
+    <ClInclude Include="window\charts\wxchartsohlcdata.h" />
+    <ClInclude Include="window\charts\wxchartspenoptions.h" />
+    <ClInclude Include="window\charts\wxchartspoint.h" />
+    <ClInclude Include="window\charts\wxchartspointoptions.h" />
+    <ClInclude Include="window\charts\wxchartsprecisiontheme.h" />
+    <ClInclude Include="window\charts\wxchartspresentationtheme.h" />
+    <ClInclude Include="window\charts\wxchartsradialgrid.h" />
+    <ClInclude Include="window\charts\wxchartsradialgridoptions.h" />
+    <ClInclude Include="window\charts\wxchartsrectangle.h" />
+    <ClInclude Include="window\charts\wxchartsrectangleoptions.h" />
+    <ClInclude Include="window\charts\wxchartstheme.h" />
+    <ClInclude Include="window\charts\wxchartsthemefactory.h" />
+    <ClInclude Include="window\charts\wxchartsthemeid.h" />
+    <ClInclude Include="window\charts\wxchartstimeaxis.h" />
+    <ClInclude Include="window\charts\wxchartsutilities.h" />
+    <ClInclude Include="window\charts\wxcharttooltip.h" />
+    <ClInclude Include="window\charts\wxcharttooltipoptions.h" />
+    <ClInclude Include="window\charts\wxcharttooltipprovider.h" />
+    <ClInclude Include="window\charts\wxcolumnchart.h" />
+    <ClInclude Include="window\charts\wxcolumnchartctrl.h" />
+    <ClInclude Include="window\charts\wxcolumnchartdatasetoptions.h" />
+    <ClInclude Include="window\charts\wxcolumnchartoptions.h" />
+    <ClInclude Include="window\charts\wxcombinationchart.h" />
+    <ClInclude Include="window\charts\wxcombinationchartctrl.h" />
+    <ClInclude Include="window\charts\wxcombinationchartoptions.h" />
+    <ClInclude Include="window\charts\wxdoughnutandpiechartbase.h" />
+    <ClInclude Include="window\charts\wxdoughnutandpiechartoptionsbase.h" />
+    <ClInclude Include="window\charts\wxdoughnutchart.h" />
+    <ClInclude Include="window\charts\wxdoughnutchartctrl.h" />
+    <ClInclude Include="window\charts\wxdoughnutchartoptions.h" />
+    <ClInclude Include="window\charts\wxhistogram.h" />
+    <ClInclude Include="window\charts\wxhistogramctrl.h" />
+    <ClInclude Include="window\charts\wxhistogramoptions.h" />
+    <ClInclude Include="window\charts\wxlinechart.h" />
+    <ClInclude Include="window\charts\wxlinechartctrl.h" />
+    <ClInclude Include="window\charts\wxlinechartdatasetoptions.h" />
+    <ClInclude Include="window\charts\wxlinechartoptions.h" />
+    <ClInclude Include="window\charts\wxmath2dplot.h" />
+    <ClInclude Include="window\charts\wxmath2dplotctrl.h" />
+    <ClInclude Include="window\charts\wxmath2dplotoptions.h" />
+    <ClInclude Include="window\charts\wxohlcchart.h" />
+    <ClInclude Include="window\charts\wxohlcchartctrl.h" />
+    <ClInclude Include="window\charts\wxohlcchartoptions.h" />
+    <ClInclude Include="window\charts\wxpiechart.h" />
+    <ClInclude Include="window\charts\wxpiechartctrl.h" />
+    <ClInclude Include="window\charts\wxpiechartoptions.h" />
+    <ClInclude Include="window\charts\wxpolarareachart.h" />
+    <ClInclude Include="window\charts\wxpolarareachartctrl.h" />
+    <ClInclude Include="window\charts\wxpolarareachartoptions.h" />
+    <ClInclude Include="window\charts\wxradarchart.h" />
+    <ClInclude Include="window\charts\wxradarchartctrl.h" />
+    <ClInclude Include="window\charts\wxradarchartoptions.h" />
+    <ClInclude Include="window\charts\wxscatterplot.h" />
+    <ClInclude Include="window\charts\wxscatterplotctrl.h" />
+    <ClInclude Include="window\charts\wxscatterplotoptions.h" />
+    <ClInclude Include="window\charts\wxstackedbarchart.h" />
+    <ClInclude Include="window\charts\wxstackedbarchartctrl.h" />
+    <ClInclude Include="window\charts\wxstackedbarchartdatasetoptions.h" />
+    <ClInclude Include="window\charts\wxstackedbarchartoptions.h" />
+    <ClInclude Include="window\charts\wxstackedcolumnchart.h" />
+    <ClInclude Include="window\charts\wxstackedcolumnchartctrl.h" />
+    <ClInclude Include="window\charts\wxstackedcolumnchartdatasetoptions.h" />
+    <ClInclude Include="window\charts\wxstackedcolumnchartoptions.h" />
+    <ClInclude Include="window\charts\wxtimeserieschart.h" />
+    <ClInclude Include="window\charts\wxtimeserieschartctrl.h" />
+    <ClInclude Include="window\charts\wxtimeserieschartoptions.h" />
+    <ClInclude Include="window\controls\toolBarCtrl.h" />
+    <ClInclude Include="window\controls\treelistctrl.h" />
+    <ClInclude Include="window\errorDialog.h" />
+    <ClInclude Include="window\external\dataProcessorWnd.h" />
+    <ClInclude Include="window\formSelector\formSelector.h" />
+    <ClInclude Include="window\functionlist\functionlist.h" />
+    <ClInclude Include="window\grid\gridCellRange.h" />
+    <ClInclude Include="window\grid\gridCommon.h" />
+    <ClInclude Include="window\grid\gridSections.h" />
+    <ClInclude Include="window\grid\gridUtils.h" />
+    <ClInclude Include="window\grid\print\controlprinter.h" />
+    <ClInclude Include="window\grid\property\gridProperty.h" />
+    <ClInclude Include="window\lineInput.h" />
+    <ClInclude Include="window\mainFrame.h" />
+    <ClInclude Include="window\mainFrameChild.h" />
+    <ClInclude Include="window\mainFrameDesigner.h" />
+    <ClInclude Include="window\mainFrameEnterprise.h" />
+    <ClInclude Include="window\metatree\metatreeWnd.h" />
+    <ClInclude Include="window\output\outputWindow.h" />
+    <ClInclude Include="window\property\advprops.h" />
+    <ClInclude Include="window\property\objinspect.h" />
+    <ClInclude Include="window\settings\editorsettings.h" />
+    <ClInclude Include="window\settings\editorsettingspanel.h" />
+    <ClInclude Include="window\settings\fontcolorsettings.h" />
+    <ClInclude Include="window\settings\fontcolorsettingspanel.h" />
+    <ClInclude Include="window\settings\keybinder.h" />
+    <ClInclude Include="window\settings\keybinderdialog.h" />
+    <ClInclude Include="window\settings\keymonitortextctrl.h" />
+    <ClInclude Include="window\settings\settingsdialog.h" />
+    <ClInclude Include="window\settings\showhelpevent.h" />
+    <ClInclude Include="window\settings\statictextex.h" />
+    <ClInclude Include="window\settings\stlutility.h" />
+    <ClInclude Include="window\settings\xmlutility.h" />
+    <ClInclude Include="window\stack\stackWindow.h" />
+    <ClInclude Include="window\theme\luna_auitabart.h" />
+    <ClInclude Include="window\theme\luna_dockart.h" />
+    <ClInclude Include="window\theme\statusbar.h" />
+    <ClInclude Include="window\title.h" />
+    <ClInclude Include="window\userListWnd.h" />
+    <ClInclude Include="window\userWnd.h" />
+    <ClInclude Include="window\watch\watchctrl.h" />
+    <ClInclude Include="window\watch\watchdroptarget.h" />
+    <ClInclude Include="window\watch\watchwindow.h" />
+    <ClInclude Include="window\watch\watchWindowEvents.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="appData.cpp" />
+    <ClCompile Include="common\cmdProc.cpp" />
+    <ClCompile Include="common\docInfo.cpp" />
+    <ClCompile Include="common\docInfoCommands.cpp" />
+    <ClCompile Include="common\moduleInfo.cpp" />
+    <ClCompile Include="common\objectbase.cpp" />
+    <ClCompile Include="common\reportManager.cpp" />
+    <ClCompile Include="common\tableInfo.cpp" />
+    <ClCompile Include="common\templates\dataProcessorFile.cpp" />
+    <ClCompile Include="common\templates\formDesigner.cpp" />
+    <ClCompile Include="common\templates\formDesigner_context.cpp" />
+    <ClCompile Include="common\templates\formDesigner_doc.cpp" />
+    <ClCompile Include="common\templates\metaFile.cpp" />
+    <ClCompile Include="common\templates\template.cpp" />
+    <ClCompile Include="common\templates\module.cpp" />
+    <ClCompile Include="common\templates\text.cpp" />
+    <ClCompile Include="common\types.cpp" />
+    <ClCompile Include="compiler\compileModule.cpp" />
+    <ClCompile Include="compiler\compiler.cpp" />
+    <ClCompile Include="compiler\debugger\debugClient.cpp" />
+    <ClCompile Include="compiler\debugger\debugEvent.cpp" />
+    <ClCompile Include="compiler\debugger\debugServer.cpp" />
+    <ClCompile Include="compiler\debugger\debugServerDB.cpp" />
+    <ClCompile Include="compiler\enum.cpp" />
+    <ClCompile Include="compiler\enumFactory.cpp" />
+    <ClCompile Include="compiler\functions.cpp" />
+    <ClCompile Include="compiler\methods.cpp" />
+    <ClCompile Include="compiler\procUnit.cpp" />
+    <ClCompile Include="compiler\queryUnit.cpp" />
+    <ClCompile Include="compiler\spell.cpp" />
+    <ClCompile Include="compiler\systemObjects.cpp" />
+    <ClCompile Include="compiler\systemObjectsEnums.cpp" />
+    <ClCompile Include="compiler\systemObjectsFunctions.cpp" />
+    <ClCompile Include="compiler\systemObjectsMethods.cpp" />
+    <ClCompile Include="compiler\translateModule.cpp" />
+    <ClCompile Include="compiler\value.cpp" />
+    <ClCompile Include="compiler\valueArray.cpp" />
+    <ClCompile Include="compiler\valueExtended.cpp" />
+    <ClCompile Include="compiler\valueFactory.cpp" />
+    <ClCompile Include="compiler\valueFileSystem.cpp" />
+    <ClCompile Include="compiler\valueGrid.cpp" />
+    <ClCompile Include="compiler\valueGuid.cpp" />
+    <ClCompile Include="compiler\valueMap.cpp" />
+    <ClCompile Include="compiler\valueQuery.cpp" />
+    <ClCompile Include="compiler\valueTable.cpp" />
+    <ClCompile Include="compiler\valueOLE.cpp" />
+    <ClCompile Include="compiler\valueTableMethods.cpp" />
+    <ClCompile Include="compiler\valueTableModel.cpp" />
+    <ClCompile Include="compiler\valueText.cpp" />
+    <ClCompile Include="compiler\valueType.cpp" />
+    <ClCompile Include="compiler\valueTypeDescription.cpp" />
+    <ClCompile Include="components\email\codec\charsetconv.cpp" />
+    <ClCompile Include="components\email\codec\rfc2047.cpp" />
+    <ClCompile Include="components\email\codec\rfc2231.cpp" />
+    <ClCompile Include="components\email\mimetic\body.cxx" />
+    <ClCompile Include="components\email\mimetic\codec\base64.cxx" />
+    <ClCompile Include="components\email\mimetic\codec\qp.cxx" />
+    <ClCompile Include="components\email\mimetic\contentdescription.cxx" />
+    <ClCompile Include="components\email\mimetic\contentdisposition.cxx" />
+    <ClCompile Include="components\email\mimetic\contentid.cxx" />
+    <ClCompile Include="components\email\mimetic\contenttransferencoding.cxx" />
+    <ClCompile Include="components\email\mimetic\contenttype.cxx" />
+    <ClCompile Include="components\email\mimetic\fieldparam.cxx" />
+    <ClCompile Include="components\email\mimetic\header.cxx" />
+    <ClCompile Include="components\email\mimetic\message.cxx" />
+    <ClCompile Include="components\email\mimetic\mimeentity.cxx" />
+    <ClCompile Include="components\email\mimetic\mimeversion.cxx" />
+    <ClCompile Include="components\email\mimetic\rfc822\address.cxx" />
+    <ClCompile Include="components\email\mimetic\rfc822\addresslist.cxx" />
+    <ClCompile Include="components\email\mimetic\rfc822\datetime.cxx" />
+    <ClCompile Include="components\email\mimetic\rfc822\field.cxx" />
+    <ClCompile Include="components\email\mimetic\rfc822\fieldvalue.cxx" />
+    <ClCompile Include="components\email\mimetic\rfc822\group.cxx" />
+    <ClCompile Include="components\email\mimetic\rfc822\mailbox.cxx" />
+    <ClCompile Include="components\email\mimetic\rfc822\mailboxlist.cxx" />
+    <ClCompile Include="components\email\mimetic\rfc822\messageid.cxx" />
+    <ClCompile Include="components\email\mimetic\rfc822\rheader.cxx" />
+    <ClCompile Include="components\email\mimetic\rfc822\rmessage.cxx" />
+    <ClCompile Include="components\email\mimetic\strutils.cxx" />
+    <ClCompile Include="components\email\mimetic\utils.cxx" />
+    <ClCompile Include="components\email\mimetic\version.cxx" />
+    <ClCompile Include="components\email\pop3\wxpop3.cpp" />
+    <ClCompile Include="components\email\pop3\wxpop3states.cpp" />
+    <ClCompile Include="components\email\smtp\wxsmtp.cpp" />
+    <ClCompile Include="components\email\smtp\wxsmtpemail.cpp" />
+    <ClCompile Include="components\email\smtp\wxsmtpstates.cpp" />
+    <ClCompile Include="components\email\ssl\wxSSLSocketClient.cpp" />
+    <ClCompile Include="components\email\utils\wxcmdprot.cpp" />
+    <ClCompile Include="components\email\utils\wxmd5.cpp" />
+    <ClCompile Include="components\email\wxemail.cpp" />
+    <ClCompile Include="components\json\jsonreader.cpp" />
+    <ClCompile Include="components\json\jsonval.cpp" />
+    <ClCompile Include="components\json\jsonwriter.cpp" />
+    <ClCompile Include="database\databaseErrorReporter.cpp" />
+    <ClCompile Include="database\databaseLayer.cpp" />
+    <ClCompile Include="database\databaseQueryParser.cpp" />
+    <ClCompile Include="database\databaseResultSet.cpp" />
+    <ClCompile Include="database\databaseStringConverter.cpp" />
+    <ClCompile Include="database\firebird\firebirdDatabaseLayer.cpp" />
+    <ClCompile Include="database\firebird\firebirdInterface.cpp" />
+    <ClCompile Include="database\firebird\firebirdParameter.cpp" />
+    <ClCompile Include="database\firebird\firebirdParameterCollection.cpp" />
+    <ClCompile Include="database\firebird\firebirdPreparedStatement.cpp" />
+    <ClCompile Include="database\firebird\firebirdPreparedStatementWrapper.cpp" />
+    <ClCompile Include="database\firebird\firebirdResultSet.cpp" />
+    <ClCompile Include="database\firebird\firebirdResultSetMetaData.cpp" />
+    <ClCompile Include="database\odbc\odbcDatabaseLayer.cpp" />
+    <ClCompile Include="database\odbc\odbcInterface.cpp" />
+    <ClCompile Include="database\odbc\odbcParameter.cpp" />
+    <ClCompile Include="database\odbc\odbcPreparedStatement.cpp" />
+    <ClCompile Include="database\odbc\odbcResultSet.cpp" />
+    <ClCompile Include="database\odbc\odbcResultSetMetaData.cpp" />
+    <ClCompile Include="database\postgres\postgresDatabaseLayer.cpp" />
+    <ClCompile Include="database\postgres\postgresInterface.cpp" />
+    <ClCompile Include="database\postgres\postgresParameter.cpp" />
+    <ClCompile Include="database\postgres\postgresPreparedStatement.cpp" />
+    <ClCompile Include="database\postgres\postgresPreparedStatementParameterCollection.cpp" />
+    <ClCompile Include="database\postgres\postgresPreparedStatementWrapper.cpp" />
+    <ClCompile Include="database\postgres\postgresResultSet.cpp" />
+    <ClCompile Include="database\postgres\postgresResultSetMetaData.cpp" />
+    <ClCompile Include="database\resultSetMetaData.cpp" />
+    <ClCompile Include="database\sqllite\engine\sqlite3.c" />
+    <ClCompile Include="database\sqllite\sqliteDatabaseLayer.cpp" />
+    <ClCompile Include="database\sqllite\sqlitePreparedStatement.cpp" />
+    <ClCompile Include="database\sqllite\sqliteResultSet.cpp" />
+    <ClCompile Include="database\sqllite\sqliteResultSetMetaData.cpp" />
+    <ClCompile Include="forms\elements\baseControl.cpp" />
+    <ClCompile Include="forms\elements\baseControlID.cpp" />
+    <ClCompile Include="forms\elements\baseControlMethods.cpp" />
+    <ClCompile Include="forms\elements\baseControlProperty.cpp" />
+    <ClCompile Include="forms\elements\boxsizer.cpp" />
+    <ClCompile Include="forms\elements\boxsizerProperty.cpp" />
+    <ClCompile Include="forms\elements\button.cpp" />
+    <ClCompile Include="forms\elements\button_events.cpp" />
+    <ClCompile Include="forms\elements\chartBox.cpp" />
+    <ClCompile Include="forms\elements\checkbox.cpp" />
+    <ClCompile Include="forms\elements\checkbox_events.cpp" />
+    <ClCompile Include="forms\elements\choice.cpp" />
+    <ClCompile Include="forms\elements\combobox.cpp" />
+    <ClCompile Include="forms\elements\frame.cpp" />
+    <ClCompile Include="forms\elements\frameAction.cpp" />
+    <ClCompile Include="forms\elements\frameAttributes.cpp" />
+    <ClCompile Include="forms\elements\frameControls.cpp" />
+    <ClCompile Include="forms\elements\frameDocument.cpp" />
+    <ClCompile Include="forms\elements\frameMethods.cpp" />
+    <ClCompile Include="forms\elements\frameObject.cpp" />
+    <ClCompile Include="forms\elements\gauge.cpp" />
+    <ClCompile Include="forms\elements\gridBox.cpp" />
+    <ClCompile Include="forms\elements\gridsizer.cpp" />
+    <ClCompile Include="forms\elements\htmlBox.cpp" />
+    <ClCompile Include="forms\elements\listbox.cpp" />
+    <ClCompile Include="forms\elements\notebook.cpp" />
+    <ClCompile Include="forms\elements\notebookEvents.cpp" />
+    <ClCompile Include="forms\elements\notebookMenu.cpp" />
+    <ClCompile Include="forms\elements\notebookPage.cpp" />
+    <ClCompile Include="forms\elements\radiobutton.cpp" />
+    <ClCompile Include="forms\elements\sizers.cpp" />
+    <ClCompile Include="forms\elements\slider.cpp" />
+    <ClCompile Include="forms\elements\staticboxsizer.cpp" />
+    <ClCompile Include="forms\elements\staticboxsizerProperty.cpp" />
+    <ClCompile Include="forms\elements\staticline.cpp" />
+    <ClCompile Include="forms\elements\statictext.cpp" />
+    <ClCompile Include="forms\elements\tableBox.cpp" />
+    <ClCompile Include="forms\elements\tableBoxAction.cpp" />
+    <ClCompile Include="forms\elements\tableBoxColumn.cpp" />
+    <ClCompile Include="forms\elements\tableBoxEvents.cpp" />
+    <ClCompile Include="forms\elements\tableBoxMenu.cpp" />
+    <ClCompile Include="forms\elements\tableBoxMethods.cpp" />
+    <ClCompile Include="forms\elements\textctrl.cpp" />
+    <ClCompile Include="forms\elements\textctrlEvents.cpp" />
+    <ClCompile Include="forms\elements\textctrlHandler.cpp" />
+    <ClCompile Include="forms\elements\toolBar.cpp" />
+    <ClCompile Include="forms\elements\toolBarAction.cpp" />
+    <ClCompile Include="forms\elements\toolBarEvents.cpp" />
+    <ClCompile Include="forms\elements\toolBarItem.cpp" />
+    <ClCompile Include="forms\elements\toolBarItemAction.cpp" />
+    <ClCompile Include="forms\elements\toolBarMenu.cpp" />
+    <ClCompile Include="forms\elements\wrapsizer.cpp" />
+    <ClCompile Include="forms\elements\wrapsizerProperty.cpp" />
+    <ClCompile Include="forms\innerFrame.cpp" />
+    <ClCompile Include="forms\pageWindow.cpp" />
+    <ClCompile Include="forms\special\enums\valueOrient.cpp" />
+    <ClCompile Include="forms\special\valueColour.cpp" />
+    <ClCompile Include="forms\special\valueFont.cpp" />
+    <ClCompile Include="forms\special\valuePoint.cpp" />
+    <ClCompile Include="forms\special\valueSize.cpp" />
+    <ClCompile Include="forms\visualEditor.cpp" />
+    <ClCompile Include="forms\visualEditorBase.cpp" />
+    <ClCompile Include="forms\visualEditorBaseEvents.cpp" />
+    <ClCompile Include="forms\visualEditorContext.cpp" />
+    <ClCompile Include="forms\visualEditorObjectTree.cpp" />
+    <ClCompile Include="forms\visualEditorView_impl.cpp" />
+    <ClCompile Include="forms\visualEditorDatabase.cpp" />
+    <ClCompile Include="forms\visualEditorEvents.cpp" />
+    <ClCompile Include="forms\visualEditorObjects.cpp" />
+    <ClCompile Include="forms\visualEditorView.cpp" />
+    <ClCompile Include="mainApp.cpp" />
+    <ClCompile Include="mainAppEvents.cpp" />
+    <ClCompile Include="mainAppEx.cpp" />
+    <ClCompile Include="metadata\external\metadataDataProcessor.cpp" />
+    <ClCompile Include="metadata\metadataBase.cpp" />
+    <ClCompile Include="metadata\metaObjects\attributes\attributes.cpp" />
+    <ClCompile Include="metadata\metaObjects\attributes\attributesEvents.cpp" />
+    <ClCompile Include="metadata\metaObjects\enumeration\enumeration.cpp" />
+    <ClCompile Include="metadata\metaObjects\metaFormObject.cpp" />
+    <ClCompile Include="metadata\metaObjects\metaFormObjectMenu.cpp" />
+    <ClCompile Include="metadata\metaObjects\metaFormObjectProperty.cpp" />
+    <ClCompile Include="metadata\metaObjects\metaGridObject.cpp" />
+    <ClCompile Include="metadata\metaObjects\metaGridObjectMenu.cpp" />
+    <ClCompile Include="metadata\metaObjects\metaModuleObject.cpp" />
+    <ClCompile Include="metadata\metaObjects\metaModuleObjectMenu.cpp" />
+    <ClCompile Include="metadata\metaObjects\metaObject.cpp" />
+    <ClCompile Include="metadata\metaObjects\metaObjectAttributes.cpp" />
+    <ClCompile Include="metadata\metaObjects\metaObjectMetadata.cpp" />
+    <ClCompile Include="metadata\metaObjects\metaObjectMetadataMenu.cpp" />
+    <ClCompile Include="metadata\metaObjects\metaObjectMethods.cpp" />
+    <ClCompile Include="metadata\metaObjects\metaObjectProperty.cpp" />
+    <ClCompile Include="metadata\metaObjects\tables\tables.cpp" />
+    <ClCompile Include="metadata\moduleManager\moduleManager.cpp" />
+    <ClCompile Include="metadata\moduleManager\moduleManagerEvents.cpp" />
+    <ClCompile Include="metadata\moduleManager\moduleManagerMetadata.cpp" />
+    <ClCompile Include="metadata\moduleManager\moduleManagerMethods.cpp" />
+    <ClCompile Include="metadata\moduleManager\moduleManagerValue.cpp" />
+    <ClCompile Include="metadata\objects\baseManager.cpp" />
+    <ClCompile Include="metadata\objects\baseObject.cpp" />
+    <ClCompile Include="metadata\objects\baseObjectDB.cpp" />
+    <ClCompile Include="metadata\objects\catalogAction.cpp" />
+    <ClCompile Include="metadata\objects\catalogManager.cpp" />
+    <ClCompile Include="metadata\objects\catalogManagerMethods.cpp" />
+    <ClCompile Include="metadata\objects\catalogManager_impl.cpp" />
+    <ClCompile Include="metadata\objects\catalogMetadata.cpp" />
+    <ClCompile Include="metadata\objects\catalogMetadataDB.cpp" />
+    <ClCompile Include="metadata\objects\catalogMetadataMenu.cpp" />
+    <ClCompile Include="metadata\objects\catalogObject.cpp" />
+    <ClCompile Include="metadata\objects\catalogObjectAttributes.cpp" />
+    <ClCompile Include="metadata\objects\catalogObjectMethods.cpp" />
+    <ClCompile Include="metadata\objects\constants.cpp" />
+    <ClCompile Include="metadata\objects\constantsDB.cpp" />
+    <ClCompile Include="metadata\objects\constantsManager.cpp" />
+    <ClCompile Include="metadata\objects\constantsManagerMethods.cpp" />
+    <ClCompile Include="metadata\objects\dataProcessorAction.cpp" />
+    <ClCompile Include="metadata\objects\dataProcessorManager.cpp" />
+    <ClCompile Include="metadata\objects\dataProcessorManagerMethods.cpp" />
+    <ClCompile Include="metadata\objects\dataProcessorMetadata.cpp" />
+    <ClCompile Include="metadata\objects\dataProcessorMetadataMenu.cpp" />
+    <ClCompile Include="metadata\objects\dataProcessorObject.cpp" />
+    <ClCompile Include="metadata\objects\dataProcessorObjectAttributes.cpp" />
+    <ClCompile Include="metadata\objects\dataProcessorObjectMethods.cpp" />
+    <ClCompile Include="metadata\objects\documentAction.cpp" />
+    <ClCompile Include="metadata\objects\documentManager.cpp" />
+    <ClCompile Include="metadata\objects\documentManagerMethods.cpp" />
+    <ClCompile Include="metadata\objects\documentManager_impl.cpp" />
+    <ClCompile Include="metadata\objects\documentMetadata.cpp" />
+    <ClCompile Include="metadata\objects\documentMetadataDB.cpp" />
+    <ClCompile Include="metadata\objects\documentMetadataMenu.cpp" />
+    <ClCompile Include="metadata\objects\documentObject.cpp" />
+    <ClCompile Include="metadata\objects\documentObjectAttributes.cpp" />
+    <ClCompile Include="metadata\objects\documentObjectMethods.cpp" />
+    <ClCompile Include="metadata\objects\enumerationManager.cpp" />
+    <ClCompile Include="metadata\objects\enumerationManagerAttributes.cpp" />
+    <ClCompile Include="metadata\objects\enumerationManagerMethods.cpp" />
+    <ClCompile Include="metadata\objects\enumerationMetadata.cpp" />
+    <ClCompile Include="metadata\objects\enumerationMetadataDB.cpp" />
+    <ClCompile Include="metadata\objects\enumerationMetadataMenu.cpp" />
+    <ClCompile Include="metadata\objects\list\objectList.cpp" />
+    <ClCompile Include="metadata\objects\list\objectListAction.cpp" />
+    <ClCompile Include="metadata\objects\list\objectListAttributes.cpp" />
+    <ClCompile Include="metadata\objects\list\objectListDB.cpp" />
+    <ClCompile Include="metadata\objects\list\objectListMethods.cpp" />
+    <ClCompile Include="metadata\objects\list\objectListModel.cpp" />
+    <ClCompile Include="metadata\objects\reference\reference.cpp" />
+    <ClCompile Include="metadata\objects\reference\referenceAttributes.cpp" />
+    <ClCompile Include="metadata\objects\reference\referenceDB.cpp" />
+    <ClCompile Include="metadata\objects\reference\referenceMethods.cpp" />
+    <ClCompile Include="metadata\objects\tablePart\tablePart.cpp" />
+    <ClCompile Include="metadata\objects\tablePart\tablePartAttribute.cpp" />
+    <ClCompile Include="metadata\objects\tablePart\tablePartMethods.cpp" />
+    <ClCompile Include="metadata\objects\tablePart\tablePartModel.cpp" />
+    <ClCompile Include="utils\bitmaps.cpp" />
+    <ClCompile Include="utils\clsid.cpp" />
+    <ClCompile Include="utils\events.cpp" />
+    <ClCompile Include="utils\fs\fs.cpp" />
+    <ClCompile Include="utils\fs\lz\lzhuf.cpp" />
+    <ClCompile Include="utils\fs\quicklz\quicklz.c" />
+    <ClCompile Include="utils\guid.cpp" />
+    <ClCompile Include="utils\stringutils.cpp" />
+    <ClCompile Include="utils\tinyxml\ticpp.cpp" />
+    <ClCompile Include="utils\tinyxml\tinystr.cpp" />
+    <ClCompile Include="utils\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="utils\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="utils\tinyxml\tinyxmlparser.cpp" />
+    <ClCompile Include="utils\typeconv.cpp" />
+    <ClCompile Include="forms\elements\window.cpp" />
+    <ClCompile Include="forms\elements\itemsizer.cpp" />
+    <ClCompile Include="metadata\metadata.cpp" />
+    <ClCompile Include="window\authorization.cpp" />
+    <ClCompile Include="window\autocomplete\autoComplectionCompile.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="window\autocomplete\autoComplectionCompileContext.cpp" />
+    <ClCompile Include="window\autocomplete\autoComplectionCtrl.cpp" />
+    <ClCompile Include="window\autocomplete\autoComplectionCtrlLoader.cpp" />
+    <ClCompile Include="window\autocomplete\autoComplectionParser.cpp" />
+    <ClCompile Include="window\autocomplete\autoComplectionPrintOut.cpp" />
+    <ClCompile Include="window\autocomplete\components\autoComplete.cpp" />
+    <ClCompile Include="window\autocomplete\components\callTip.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="window\autocomplete\components\helpers\listBoxVisualData.cpp" />
+    <ClCompile Include="window\autocomplete\components\helpers\listBoxWnd.cpp" />
+    <ClCompile Include="window\autocomplete\components\helpers\popupWnd.cpp" />
+    <ClCompile Include="window\charts\wxareachart.cpp" />
+    <ClCompile Include="window\charts\wxareachartctrl.cpp" />
+    <ClCompile Include="window\charts\wxareachartdatasetoptions.cpp" />
+    <ClCompile Include="window\charts\wxareachartoptions.cpp" />
+    <ClCompile Include="window\charts\wxbarchart.cpp" />
+    <ClCompile Include="window\charts\wxbarchartctrl.cpp" />
+    <ClCompile Include="window\charts\wxbarchartdatasetoptions.cpp" />
+    <ClCompile Include="window\charts\wxbarchartoptions.cpp" />
+    <ClCompile Include="window\charts\wxboxplot.cpp" />
+    <ClCompile Include="window\charts\wxboxplotctrl.cpp" />
+    <ClCompile Include="window\charts\wxboxplotdatasetoptions.cpp" />
+    <ClCompile Include="window\charts\wxboxplotoptions.cpp" />
+    <ClCompile Include="window\charts\wxbubblechart.cpp" />
+    <ClCompile Include="window\charts\wxbubblechartctrl.cpp" />
+    <ClCompile Include="window\charts\wxbubblechartoptions.cpp" />
+    <ClCompile Include="window\charts\wxcandlestickchart.cpp" />
+    <ClCompile Include="window\charts\wxcandlestickchartctrl.cpp" />
+    <ClCompile Include="window\charts\wxcandlestickchartoptions.cpp" />
+    <ClCompile Include="window\charts\wxchart.cpp" />
+    <ClCompile Include="window\charts\wxchartbackground.cpp" />
+    <ClCompile Include="window\charts\wxchartbackgroundoptions.cpp" />
+    <ClCompile Include="window\charts\wxchartcommonoptions.cpp" />
+    <ClCompile Include="window\charts\wxchartctrl.cpp" />
+    <ClCompile Include="window\charts\wxchartfontoptions.cpp" />
+    <ClCompile Include="window\charts\wxchartmultitooltip.cpp" />
+    <ClCompile Include="window\charts\wxchartmultitooltipoptions.cpp" />
+    <ClCompile Include="window\charts\wxchartoptions.cpp" />
+    <ClCompile Include="window\charts\wxchartpadding.cpp" />
+    <ClCompile Include="window\charts\wxchartsarc.cpp" />
+    <ClCompile Include="window\charts\wxchartsarcoptions.cpp" />
+    <ClCompile Include="window\charts\wxchartsaxis.cpp" />
+    <ClCompile Include="window\charts\wxchartsaxisoptions.cpp" />
+    <ClCompile Include="window\charts\wxchartsbrushoptions.cpp" />
+    <ClCompile Include="window\charts\wxchartscategoricalaxis.cpp" />
+    <ClCompile Include="window\charts\wxchartscategoricaldata.cpp" />
+    <ClCompile Include="window\charts\wxchartscategoricaldataobserver.cpp" />
+    <ClCompile Include="window\charts\wxchartscircle.cpp" />
+    <ClCompile Include="window\charts\wxchartscircleoptions.cpp" />
+    <ClCompile Include="window\charts\wxchartsdataset.cpp" />
+    <ClCompile Include="window\charts\wxchartsdatasetid.cpp" />
+    <ClCompile Include="window\charts\wxchartsdatasettheme.cpp" />
+    <ClCompile Include="window\charts\wxchartsdoubledataset.cpp" />
+    <ClCompile Include="window\charts\wxchartselement.cpp" />
+    <ClCompile Include="window\charts\wxchartsgrid.cpp" />
+    <ClCompile Include="window\charts\wxchartsgridmapping.cpp" />
+    <ClCompile Include="window\charts\wxchartsgridoptions.cpp" />
+    <ClCompile Include="window\charts\wxchartslabel.cpp" />
+    <ClCompile Include="window\charts\wxchartslabelgroup.cpp" />
+    <ClCompile Include="window\charts\wxchartslabeloptions.cpp" />
+    <ClCompile Include="window\charts\wxchartslegendctrl.cpp" />
+    <ClCompile Include="window\charts\wxchartslegenditem.cpp" />
+    <ClCompile Include="window\charts\wxchartslegendline.cpp" />
+    <ClCompile Include="window\charts\wxchartslegendlineoptions.cpp" />
+    <ClCompile Include="window\charts\wxchartslegendoptions.cpp" />
+    <ClCompile Include="window\charts\wxchartslicedata.cpp" />
+    <ClCompile Include="window\charts\wxchartsnumericalaxis.cpp" />
+    <ClCompile Include="window\charts\wxchartsohlcdata.cpp" />
+    <ClCompile Include="window\charts\wxchartspenoptions.cpp" />
+    <ClCompile Include="window\charts\wxchartspoint.cpp" />
+    <ClCompile Include="window\charts\wxchartspointoptions.cpp" />
+    <ClCompile Include="window\charts\wxchartsprecisiontheme.cpp" />
+    <ClCompile Include="window\charts\wxchartspresentationtheme.cpp" />
+    <ClCompile Include="window\charts\wxchartsradialgrid.cpp" />
+    <ClCompile Include="window\charts\wxchartsradialgridoptions.cpp" />
+    <ClCompile Include="window\charts\wxchartsrectangle.cpp" />
+    <ClCompile Include="window\charts\wxchartsrectangleoptions.cpp" />
+    <ClCompile Include="window\charts\wxchartstheme.cpp" />
+    <ClCompile Include="window\charts\wxchartsthemefactory.cpp" />
+    <ClCompile Include="window\charts\wxchartsthemeid.cpp" />
+    <ClCompile Include="window\charts\wxchartstimeaxis.cpp" />
+    <ClCompile Include="window\charts\wxchartsutilities.cpp" />
+    <ClCompile Include="window\charts\wxcharttooltip.cpp" />
+    <ClCompile Include="window\charts\wxcharttooltipoptions.cpp" />
+    <ClCompile Include="window\charts\wxcharttooltipprovider.cpp" />
+    <ClCompile Include="window\charts\wxcolumnchart.cpp" />
+    <ClCompile Include="window\charts\wxcolumnchartctrl.cpp" />
+    <ClCompile Include="window\charts\wxcolumnchartdatasetoptions.cpp" />
+    <ClCompile Include="window\charts\wxcolumnchartoptions.cpp" />
+    <ClCompile Include="window\charts\wxcombinationchart.cpp" />
+    <ClCompile Include="window\charts\wxcombinationchartctrl.cpp" />
+    <ClCompile Include="window\charts\wxcombinationchartoptions.cpp" />
+    <ClCompile Include="window\charts\wxdoughnutandpiechartbase.cpp" />
+    <ClCompile Include="window\charts\wxdoughnutandpiechartoptionsbase.cpp" />
+    <ClCompile Include="window\charts\wxdoughnutchart.cpp" />
+    <ClCompile Include="window\charts\wxdoughnutchartctrl.cpp" />
+    <ClCompile Include="window\charts\wxdoughnutchartoptions.cpp" />
+    <ClCompile Include="window\charts\wxhistogram.cpp" />
+    <ClCompile Include="window\charts\wxhistogramctrl.cpp" />
+    <ClCompile Include="window\charts\wxhistogramoptions.cpp" />
+    <ClCompile Include="window\charts\wxlinechart.cpp" />
+    <ClCompile Include="window\charts\wxlinechartctrl.cpp" />
+    <ClCompile Include="window\charts\wxlinechartdatasetoptions.cpp" />
+    <ClCompile Include="window\charts\wxlinechartoptions.cpp" />
+    <ClCompile Include="window\charts\wxmath2dplot.cpp" />
+    <ClCompile Include="window\charts\wxmath2dplotctrl.cpp" />
+    <ClCompile Include="window\charts\wxmath2dplotoptions.cpp" />
+    <ClCompile Include="window\charts\wxohlcchart.cpp" />
+    <ClCompile Include="window\charts\wxohlcchartctrl.cpp" />
+    <ClCompile Include="window\charts\wxohlcchartoptions.cpp" />
+    <ClCompile Include="window\charts\wxpiechart.cpp" />
+    <ClCompile Include="window\charts\wxpiechartctrl.cpp" />
+    <ClCompile Include="window\charts\wxpiechartoptions.cpp" />
+    <ClCompile Include="window\charts\wxpolarareachart.cpp" />
+    <ClCompile Include="window\charts\wxpolarareachartctrl.cpp" />
+    <ClCompile Include="window\charts\wxpolarareachartoptions.cpp" />
+    <ClCompile Include="window\charts\wxradarchart.cpp" />
+    <ClCompile Include="window\charts\wxradarchartctrl.cpp" />
+    <ClCompile Include="window\charts\wxradarchartoptions.cpp" />
+    <ClCompile Include="window\charts\wxscatterplot.cpp" />
+    <ClCompile Include="window\charts\wxscatterplotctrl.cpp" />
+    <ClCompile Include="window\charts\wxscatterplotoptions.cpp" />
+    <ClCompile Include="window\charts\wxstackedbarchart.cpp" />
+    <ClCompile Include="window\charts\wxstackedbarchartctrl.cpp" />
+    <ClCompile Include="window\charts\wxstackedbarchartdatasetoptions.cpp" />
+    <ClCompile Include="window\charts\wxstackedbarchartoptions.cpp" />
+    <ClCompile Include="window\charts\wxstackedcolumnchart.cpp" />
+    <ClCompile Include="window\charts\wxstackedcolumnchartctrl.cpp" />
+    <ClCompile Include="window\charts\wxstackedcolumnchartdatasetoptions.cpp" />
+    <ClCompile Include="window\charts\wxstackedcolumnchartoptions.cpp" />
+    <ClCompile Include="window\charts\wxtimeserieschart.cpp" />
+    <ClCompile Include="window\charts\wxtimeserieschartctrl.cpp" />
+    <ClCompile Include="window\charts\wxtimeserieschartoptions.cpp" />
+    <ClCompile Include="window\controls\treelistctrl.cpp" />
+    <ClCompile Include="window\errorDialog.cpp" />
+    <ClCompile Include="window\external\dataProcessorWnd.cpp" />
+    <ClCompile Include="window\external\dataProcessorWndEvent.cpp" />
+    <ClCompile Include="window\external\dataProcessorWnd_impl.cpp" />
+    <ClCompile Include="window\formSelector\formSelector.cpp" />
+    <ClCompile Include="window\functionlist\functionlist.cpp" />
+    <ClCompile Include="window\grid\gridCommon.cpp" />
+    <ClCompile Include="window\grid\gridSections.cpp" />
+    <ClCompile Include="window\grid\gridUtils.cpp" />
+    <ClCompile Include="window\grid\print\controlprinter.cpp" />
+    <ClCompile Include="window\grid\property\gridProperty.cpp" />
+    <ClCompile Include="window\lineInput.cpp" />
+    <ClCompile Include="window\mainFrame.cpp" />
+    <ClCompile Include="window\mainFrameChild.cpp" />
+    <ClCompile Include="window\mainFrameCommands.cpp" />
+    <ClCompile Include="window\mainFrameDesigner.cpp" />
+    <ClCompile Include="window\mainFrameDesignerCommands.cpp" />
+    <ClCompile Include="window\mainFrameDesignerEvents.cpp" />
+    <ClCompile Include="window\mainFrameDesignerMenu.cpp" />
+    <ClCompile Include="window\mainFrameEnterprise.cpp" />
+    <ClCompile Include="window\mainFrameEnterpriseCommands.cpp" />
+    <ClCompile Include="window\mainFrameEnterpriseEvents.cpp" />
+    <ClCompile Include="window\mainFrameEnterpriseMenu.cpp" />
+    <ClCompile Include="window\mainFrameEvents.cpp" />
+    <ClCompile Include="window\mainFrameInit.cpp" />
+    <ClCompile Include="window\metatree\metatreeWnd.cpp" />
+    <ClCompile Include="window\metatree\metatreeWndEvents.cpp" />
+    <ClCompile Include="window\metatree\metatreeWnd_impl.cpp" />
+    <ClCompile Include="window\output\outputWindow.cpp" />
+    <ClCompile Include="window\output\outputWindow_init.cpp" />
+    <ClCompile Include="window\property\advprops.cpp" />
+    <ClCompile Include="window\property\objinspect.cpp" />
+    <ClCompile Include="window\property\objinspect_events.cpp" />
+    <ClCompile Include="window\property\objinspect_init.cpp" />
+    <ClCompile Include="window\settings\editorsettings.cpp" />
+    <ClCompile Include="window\settings\editorsettingspanel.cpp" />
+    <ClCompile Include="window\settings\fontcolorsettings.cpp" />
+    <ClCompile Include="window\settings\fontcolorsettingspanel.cpp" />
+    <ClCompile Include="window\settings\keybinder.cpp" />
+    <ClCompile Include="window\settings\keybinderdialog.cpp" />
+    <ClCompile Include="window\settings\keymonitortextctrl.cpp" />
+    <ClCompile Include="window\settings\settingsdialog.cpp" />
+    <ClCompile Include="window\settings\showhelpevent.cpp" />
+    <ClCompile Include="window\settings\statictextex.cpp" />
+    <ClCompile Include="window\settings\stlutility.cpp" />
+    <ClCompile Include="window\settings\xmlutility.cpp" />
+    <ClCompile Include="window\stack\stackWindow.cpp" />
+    <ClCompile Include="window\stack\stackWindow_init.cpp" />
+    <ClCompile Include="window\theme\luna_auitabart.cpp" />
+    <ClCompile Include="window\theme\luna_dockart.cpp" />
+    <ClCompile Include="window\title.cpp" />
+    <ClCompile Include="window\userListWnd.cpp" />
+    <ClCompile Include="window\userWnd.cpp" />
+    <ClCompile Include="window\watch\watchctrl.cpp" />
+    <ClCompile Include="window\watch\watchdroptarget.cpp" />
+    <ClCompile Include="window\watch\watchwindow.cpp" />
+    <ClCompile Include="window\watch\watchWindowEvents.cpp" />
+    <ClCompile Include="window\watch\watchwindow_init.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="compiler\ttmath\ttmathuint_x86_64_msvc.asm">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </MASM>
+    <None Include="forms\elements\icons\animation.xpm" />
+    <None Include="forms\elements\icons\auitoolbar.xpm" />
+    <None Include="forms\elements\icons\bitmap_button.xpm" />
+    <None Include="forms\elements\icons\button.xpm" />
+    <None Include="forms\elements\icons\button16x16.xpm" />
+    <None Include="forms\elements\icons\checkbox.xpm" />
+    <None Include="forms\elements\icons\choice.xpm" />
+    <None Include="forms\elements\icons\combo_box.xpm" />
+    <None Include="forms\elements\icons\flex_grid_sizer.xpm" />
+    <None Include="forms\elements\icons\gauge.xpm" />
+    <None Include="forms\elements\icons\grid.xpm" />
+    <None Include="forms\elements\icons\grid_bag_sizer.xpm" />
+    <None Include="forms\elements\icons\grid_sizer.xpm" />
+    <None Include="forms\elements\icons\infobar.xpm" />
+    <None Include="forms\elements\icons\list_box.xpm" />
+    <None Include="forms\elements\icons\list_ctrl.xpm" />
+    <None Include="forms\elements\icons\menu.xpm" />
+    <None Include="forms\elements\icons\menubar.xpm" />
+    <None Include="forms\elements\icons\menuitem.xpm" />
+    <None Include="forms\elements\icons\radio_box.xpm" />
+    <None Include="forms\elements\icons\radio_button.xpm" />
+    <None Include="forms\elements\icons\separator.xpm" />
+    <None Include="forms\elements\icons\sizer.xpm" />
+    <None Include="forms\elements\icons\sizer16x16.xpm" />
+    <None Include="forms\elements\icons\slider.xpm" />
+    <None Include="forms\elements\icons\staticbox_sizer.xpm" />
+    <None Include="forms\elements\icons\static_bitmap.xpm" />
+    <None Include="forms\elements\icons\static_line.xpm" />
+    <None Include="forms\elements\icons\static_text.xpm" />
+    <None Include="forms\elements\icons\statusbar.xpm" />
+    <None Include="forms\elements\icons\stddialogbuttonsizer.xpm" />
+    <None Include="forms\elements\icons\submenu.xpm" />
+    <None Include="forms\elements\icons\text_ctrl.xpm" />
+    <None Include="forms\elements\icons\tool.xpm" />
+    <None Include="forms\elements\icons\toolbar.xpm" />
+    <None Include="forms\elements\icons\toolSeparator.xpm" />
+    <None Include="forms\elements\icons\wrap_sizer.xpm" />
+    <None Include="resources\splashLogo.xpm" />
+    <None Include="res\cur00010.cur" />
+    <None Include="res\pointer_.cur" />
+    <None Include="utils\default.xpm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap10.bmp" />
+    <Image Include="res\bitmap2.bmp" />
+    <Image Include="res\bitmap4.bmp" />
+    <Image Include="res\bitmap5.bmp" />
+    <Image Include="res\bitmap6.bmp" />
+    <Image Include="res\bitmap7.bmp" />
+    <Image Include="res\bitmap8.bmp" />
+    <Image Include="res\bitmap9.bmp" />
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="res\bmp00002.bmp" />
+    <Image Include="res\bmp00003.bmp" />
+    <Image Include="res\bmp00004.bmp" />
+    <Image Include="res\bmp00005.bmp" />
+    <Image Include="res\bmp00006.bmp" />
+    <Image Include="res\bmp00007.bmp" />
+    <Image Include="res\bmp00008.bmp" />
+    <Image Include="res\bmp00010.bmp" />
+    <Image Include="res\bmp00011.bmp" />
+    <Image Include="res\bmp00012.bmp" />
+    <Image Include="res\Dialog.ico" />
+    <Image Include="res\edit_cop.bmp" />
+    <Image Include="res\edit_cut.bmp" />
+    <Image Include="res\edit_for.bmp" />
+    <Image Include="res\edit_mak.bmp" />
+    <Image Include="res\edit_new.bmp" />
+    <Image Include="res\edit_pas.bmp" />
+    <Image Include="res\edit_sec.bmp" />
+    <Image Include="res\Enterprise.ico" />
+    <Image Include="res\EnterpriseDoc.ico" />
+    <Image Include="res\ico00001.ico" />
+    <Image Include="res\ico00002.ico" />
+    <Image Include="res\ico00003.ico" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\idr_edit.ico" />
+    <Image Include="res\idr_help.ico" />
+    <Image Include="res\idr_laye.ico" />
+    <Image Include="res\idr_meta.ico" />
+    <Image Include="res\idr_samp.ico" />
+    <Image Include="res\jurnaldo.bmp" />
+    <Image Include="res\PADDOC.ICO" />
+    <Image Include="res\Piktogramki.bmp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{E5B4B7ED-A0D7-42A9-BFED-F527FD029F92}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>AutomationEnterprise</RootNamespace>
+    <ProjectName>engine</ProjectName>
+    <WindowsTargetPlatformVersion>7.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\intermediate\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\bin64\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\intermediate\$(Configuration)_64\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\intermediate\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\bin64\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\intermediate\$(Configuration)_64\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>
+      </SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CRT_SECURE_NO_DEPRECATE=1;_CRT_NON_CONFORMING_SWPRINTFS=1;_SCL_SECURE_NO_WARNINGS=1;__WXMSW__;_UNICODE;_WINDOWS;WXUSINGDLL;NOPCH;SMALL_TRANSLATE;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;TIXML_USE_TICPP;DONT_USE_DATABASE_LAYER_EXCEPTIONS;_HAVE_SQLITE_CONFIG_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\projects\wxWidgets-3.1.4\lib\vc_dll\mswud;E:\projects\wxWidgets-3.1.4\include;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <CompileAsManaged>false</CompileAsManaged>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>E:\projects\wxWidgets-3.1.4\lib\vc_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wxmsw31ud_aui.lib;wxmsw31ud_qa.lib;wxmsw31ud_html.lib;wxmsw31ud_propgrid.lib;wxmsw31ud_adv.lib;wxmsw31ud_core.lib;wxbase31ud_xml.lib;wxbase31ud_net.lib;wxmsw31ud_stc.lib;wxmsw31ud_xrc.lib;wxbase31ud.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxscintillad.lib;wxregexud.lib;wxexpatd.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;shlwapi.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;version.lib;wsock32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <FixedBaseAddress>false</FixedBaseAddress>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>
+      </SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CRT_SECURE_NO_DEPRECATE=1;_CRT_NON_CONFORMING_SWPRINTFS=1;_SCL_SECURE_NO_WARNINGS=1;__WXMSW__;_UNICODE;_WINDOWS;WXUSINGDLL;NOPCH;SMALL_TRANSLATE;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;TIXML_USE_TICPP;DONT_USE_DATABASE_LAYER_EXCEPTIONS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\WorkEnterprise\wxWidgets-3.1.3\lib\vc_x64_dll\mswud;D:\WorkEnterprise\wxWidgets-3.1.3\include;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <CompileAsManaged>false</CompileAsManaged>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <FloatingPointModel>Precise</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\WorkEnterprise\wxWidgets-3.1.3\lib\vc_x64_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wxmsw31ud_aui.lib;wxmsw31ud_html.lib;wxmsw31ud_propgrid.lib;wxmsw31ud_adv.lib;wxmsw31ud_core.lib;wxbase31ud_xml.lib;wxbase31ud_net.lib;wxmsw31ud_stc.lib;wxmsw31ud_xrc.lib;wxbase31ud.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxscintillad.lib;wxregexud.lib;wxexpatd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>false</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>
+      </SDLCheck>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_DEPRECATE=1;_CRT_NON_CONFORMING_SWPRINTFS=1;_SCL_SECURE_NO_WARNINGS=1;__WXMSW__;NDEBUG;_UNICODE;_WINDOWS;WXUSINGDLL;NOPCH;SMALL_TRANSLATE;BUILD_WINDOWS;wxDEBUG_LEVEL=0;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;TIXML_USE_TICPP;DONT_USE_DATABASE_LAYER_EXCEPTIONS;_HAVE_SQLITE_CONFIG_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\projects\wxWidgets-3.1.4\lib\vc_dll\mswud;E:\projects\wxWidgets-3.1.4\include;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <OmitFramePointers>true</OmitFramePointers>
+      <StringPooling>true</StringPooling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <CompileAsManaged>false</CompileAsManaged>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <AdditionalOptions>/Gw %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>DebugFastLink</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>E:\projects\wxWidgets-3.1.4\lib\vc_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wxmsw31u_aui.lib;wxmsw31u_qa.lib;wxmsw31u_html.lib;wxmsw31u_propgrid.lib;wxmsw31u_adv.lib;wxmsw31u_core.lib;wxbase31u_xml.lib;wxbase31u_net.lib;wxmsw31u_stc.lib;wxmsw31u_xrc.lib;wxbase31u.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxscintillad.lib;wxregexud.lib;wxexpatd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <TargetMachine>MachineX86</TargetMachine>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <EnableUAC>true</EnableUAC>
+      <LargeAddressAware>true</LargeAddressAware>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <SetChecksum>true</SetChecksum>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_DEPRECATE=1;_CRT_NON_CONFORMING_SWPRINTFS=1;_SCL_SECURE_NO_WARNINGS=1;__WXMSW__;NDEBUG;_UNICODE;_WINDOWS;WXUSINGDLL;NOPCH;SMALL_TRANSLATE;BUILD_WINDOWS;wxDEBUG_LEVEL=0;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;TIXML_USE_TICPP;DONT_USE_DATABASE_LAYER_EXCEPTIONS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\projects\wxWidgets-3.1.4\lib\vc_x64_dll\mswud;E:\projects\wxWidgets-3.1.4\include;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <OmitFramePointers>true</OmitFramePointers>
+      <StringPooling>true</StringPooling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <CompileAsManaged>false</CompileAsManaged>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <AdditionalOptions>/Gw %(AdditionalOptions)</AdditionalOptions>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>DebugFastLink</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>E:\projects\wxWidgets-3.1.4\lib\vc_x64_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wxmsw31u_aui.lib;wxmsw31u_qa.lib;wxmsw31u_html.lib;wxmsw31u_propgrid.lib;wxmsw31u_adv.lib;wxmsw31u_core.lib;wxbase31u_xml.lib;wxbase31u_net.lib;wxmsw31u_stc.lib;wxmsw31u_xrc.lib;wxbase31u.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxscintillad.lib;wxregexud.lib;wxexpatd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <EnableUAC>false</EnableUAC>
+      <LargeAddressAware>false</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>
